@@ -1,0 +1,171 @@
+Log file created at: 2022/12/28 16:32:18
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1228 16:32:18.116988 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.117358 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.117381 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.117458 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.117468 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297407 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297433 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297442 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297462 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297464 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297477 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297483 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297489 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297503 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297505 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297514 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297518 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297523 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297533 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297534 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297544 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297549 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297552 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297562 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297564 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297574 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297578 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297585 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297595 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297597 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297606 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297610 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297616 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297626 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297627 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297636 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297641 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297644 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297653 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297655 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297663 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297668 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297672 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297683 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297684 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297695 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297720 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297726 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297740 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297742 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297752 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297757 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297761 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297773 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297775 72449 test_initialization.cpp:71] yaw = -53.079
+I1228 16:32:18.297786 72449 test_initialization.cpp:41] ave_acc = 
+0-0.0541509
+-0.00838076
+00009.76604
+I1228 16:32:18.297791 72449 test_initialization.cpp:42] ave_gyr = 
+00.000922276
+0-0.00123285
+-0.000461567
+I1228 16:32:18.297797 72449 test_initialization.cpp:43] b_g_c_w = 
+000.0120439
+0000.008982
+7.44891e-05
+I1228 16:32:18.297809 72449 test_initialization.cpp:70] tan_yaw = -1.33078
+I1228 16:32:18.297811 72449 test_initialization.cpp:71] yaw = -53.079

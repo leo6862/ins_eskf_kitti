@@ -1,0 +1,12 @@
+Log file created at: 2022/12/28 16:10:37
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1228 16:10:37.764878 49562 test_initialization.cpp:40] ave_acc = 000-0.005758
+-0.000958067
+00000.995196
+I1228 16:10:37.765403 49562 test_initialization.cpp:41] ave_gyr = 000.00330137
+0-0.00151692
+-0.000816655
+I1228 16:10:37.765439 49562 test_initialization.cpp:42] b_g_c_w = 00.00151041
+000.0032808
+1.18974e-05

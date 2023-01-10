@@ -1,0 +1,73 @@
+Log file created at: 2022/12/28 16:30:39
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1228 16:30:39.567189 70217 test_initialization.cpp:41] ave_acc = 
+00-0.056486
+-0.00939864
+00009.76287
+I1228 16:30:39.567862 70217 test_initialization.cpp:42] ave_gyr = 
+000.00330137
+0-0.00151692
+-0.000816655
+I1228 16:30:39.567909 70217 test_initialization.cpp:43] b_g_c_w = 
+000.0148171
+000.0321847
+0.000116713
+I1228 16:30:39.568017 70217 test_initialization.cpp:70] tan_yaw = -0.457471
+I1228 16:30:39.568042 70217 test_initialization.cpp:71] yaw = -0.136575
+I1228 16:30:39.738575 70217 test_initialization.cpp:41] ave_acc = 
+00-0.056486
+-0.00939864
+00009.76287
+I1228 16:30:39.738615 70217 test_initialization.cpp:42] ave_gyr = 
+000.00330137
+0-0.00151692
+-0.000816655
+I1228 16:30:39.738626 70217 test_initialization.cpp:43] b_g_c_w = 
+000.0148171
+000.0321847
+0.000116713
+I1228 16:30:39.738651 70217 test_initialization.cpp:70] tan_yaw = -0.457471
+I1228 16:30:39.738656 70217 test_initialization.cpp:71] yaw = -0.136575
+I1228 16:30:39.738674 70217 test_initialization.cpp:41] ave_acc = 
+00-0.056486
+-0.00939864
+00009.76287
+I1228 16:30:39.738685 70217 test_initialization.cpp:42] ave_gyr = 
+000.00330137
+0-0.00151692
+-0.000816655
+I1228 16:30:39.738693 70217 test_initialization.cpp:43] b_g_c_w = 
+000.0148171
+000.0321847
+0.000116713
+I1228 16:30:39.738710 70217 test_initialization.cpp:70] tan_yaw = -0.457471
+I1228 16:30:39.738714 70217 test_initialization.cpp:71] yaw = -0.136575
+I1228 16:30:39.738729 70217 test_initialization.cpp:41] ave_acc = 
+00-0.056486
+-0.00939864
+00009.76287
+I1228 16:30:39.738739 70217 test_initialization.cpp:42] ave_gyr = 
+000.00330137
+0-0.00151692
+-0.000816655
+I1228 16:30:39.738747 70217 test_initialization.cpp:43] b_g_c_w = 
+000.0148171
+000.0321847
+0.000116713
+I1228 16:30:39.738765 70217 test_initialization.cpp:70] tan_yaw = -0.457471
+I1228 16:30:39.738768 70217 test_initialization.cpp:71] yaw = -0.136575
+I1228 16:30:39.738782 70217 test_initialization.cpp:41] ave_acc = 
+00-0.056486
+-0.00939864
+00009.76287
+I1228 16:30:39.738790 70217 test_initialization.cpp:42] ave_gyr = 
+000.00330137
+0-0.00151692
+-0.000816655
+I1228 16:30:39.738799 70217 test_initialization.cpp:43] b_g_c_w = 
+000.0148171
+000.0321847
+0.000116713
+I1228 16:30:39.738817 70217 test_initialization.cpp:70] tan_yaw = -0.457471
+I1228 16:30:39.738822 70217 test_initialization.cpp:71] yaw = -0.136575

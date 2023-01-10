@@ -1,0 +1,27 @@
+Log file created at: 2022/12/28 17:05:28
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1228 17:05:28.545145 107960 test_initialization.cpp:75] yaw = -27.7302
+I1228 17:05:28.545477 107960 test_initialization.cpp:76] roll = -0.330072
+I1228 17:05:28.545492 107960 test_initialization.cpp:77] pitch = -0.0413635
+I1228 17:05:28.545501 107960 test_initialization.cpp:78] ------------------------------
+I1228 17:05:33.340713 107960 test_initialization.cpp:75] yaw = -27.9246
+I1228 17:05:33.340797 107960 test_initialization.cpp:76] roll = -0.318558
+I1228 17:05:33.340811 107960 test_initialization.cpp:77] pitch = -0.0480353
+I1228 17:05:33.340822 107960 test_initialization.cpp:78] ------------------------------
+I1228 17:05:38.040989 107960 test_initialization.cpp:75] yaw = -26.4429
+I1228 17:05:38.041064 107960 test_initialization.cpp:76] roll = -0.331129
+I1228 17:05:38.041075 107960 test_initialization.cpp:77] pitch = -0.0456161
+I1228 17:05:38.041083 107960 test_initialization.cpp:78] ------------------------------
+I1228 17:05:42.946154 107960 test_initialization.cpp:75] yaw = -26.8851
+I1228 17:05:42.946228 107960 test_initialization.cpp:76] roll = -0.327841
+I1228 17:05:42.946239 107960 test_initialization.cpp:77] pitch = -0.0461737
+I1228 17:05:42.946247 107960 test_initialization.cpp:78] ------------------------------
+I1228 17:05:47.741225 107960 test_initialization.cpp:75] yaw = -25.3773
+I1228 17:05:47.741319 107960 test_initialization.cpp:76] roll = -0.331709
+I1228 17:05:47.741333 107960 test_initialization.cpp:77] pitch = -0.0425141
+I1228 17:05:47.741344 107960 test_initialization.cpp:78] ------------------------------
+I1228 17:05:52.539849 107960 test_initialization.cpp:75] yaw = -28.7722
+I1228 17:05:52.539866 107960 test_initialization.cpp:76] roll = -0.335218
+I1228 17:05:52.539870 107960 test_initialization.cpp:77] pitch = -0.053711
+I1228 17:05:52.539872 107960 test_initialization.cpp:78] ------------------------------

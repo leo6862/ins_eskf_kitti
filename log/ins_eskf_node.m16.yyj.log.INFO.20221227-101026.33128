@@ -1,0 +1,4 @@
+Log file created at: 2022/12/27 10:10:26
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1227 10:10:26.522403 33128 ins_eskf_node.cpp:22] INS ESKF STARTED.

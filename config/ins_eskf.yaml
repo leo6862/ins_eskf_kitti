@@ -1,0 +1,11 @@
+
+#使用不同的数据集 kf的初始化方式是不一样的
+dataset: kitti
+
+imu_topic: /kitti/oxts/imu/extract
+gps_topic: /kitti/oxts/gps/fix
+
+#只有在dataset == kitti的时候才有效
+kitti/vel_topic: /kitti/oxts/gps/vel
+
+

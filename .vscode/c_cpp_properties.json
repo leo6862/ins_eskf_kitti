@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/yyj/yyj_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/yyj/ros2_ws/install/lidar_slam/include/**",
+        "/home/yyj/yyj_ws/src/aloam_gps/include/**",
+        "/home/yyj/yyj_ws/src/A-LOAM-devel/include/**",
+        "/home/yyj/yyj_ws/src/data2bag/include/**",
+        "/home/yyj/yyj_ws/src/FAST_LIO/include/**",
+        "/home/yyj/yyj_ws/src/floam-master/include/**",
+        "/home/yyj/yyj_ws/src/imu_preintegration/include/**",
+        "/home/yyj/yyj_ws/src/ins_eskf/include/**",
+        "/home/yyj/yyj_ws/src/learning_msg/include/**",
+        "/home/yyj/yyj_ws/src/learning_pcl/include/**",
+        "/home/yyj/yyj_ws/src/learning_zhihu/include/**",
+        "/home/yyj/yyj_ws/src/lidar_imu_gnss_fusion/include/**",
+        "/home/yyj/yyj_ws/src/lio_craft/include/**",
+        "/home/yyj/yyj_ws/src/lio_sam_livox/include/**",
+        "/home/yyj/yyj_ws/src/localization_draft/include/**",
+        "/home/yyj/yyj_ws/src/nav_demo/include/**",
+        "/home/yyj/yyj_ws/src/octomap_draft/include/**",
+        "/home/yyj/yyj_ws/src/quiz/include/**",
+        "/home/yyj/yyj_ws/src/sensor_fusion/include/**",
+        "/home/yyj/yyj_ws/src/test_filter/include/**",
+        "/home/yyj/yyj_ws/src/test_geo/include/**",
+        "/home/yyj/yyj_ws/src/test_lidar_data/include/**",
+        "/home/yyj/yyj_ws/src/test_occupancygrid/include/**",
+        "/home/yyj/yyj_ws/src/usvinland/include/**",
+        "/home/yyj/yyj_ws/src/wit_imu/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

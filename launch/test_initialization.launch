@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg = "ins_eskf" type="test_initialization" name="test_initialization_node" output="screen"/>
+    <node pkg = "rosbag" type="play" args = "-s 0 /home/yyj/bag_file/yyj/livox/static_test.bag" name="bag_play_node"/>
+
+
+</launch>

@@ -1,0 +1,223 @@
+Log file created at: 2022/12/28 17:04:35
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1228 17:04:35.028141 106679 test_initialization.cpp:75] yaw = -23.2023
+I1228 17:04:35.028650 106679 test_initialization.cpp:76] roll = -0.317805
+I1228 17:04:35.028672 106679 test_initialization.cpp:77] pitch = -0.0367247
+I1228 17:04:35.028683 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:35.427323 106679 test_initialization.cpp:75] yaw = -21.904
+I1228 17:04:35.427367 106679 test_initialization.cpp:76] roll = -0.339494
+I1228 17:04:35.427373 106679 test_initialization.cpp:77] pitch = -0.0724705
+I1228 17:04:35.427379 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:35.933190 106679 test_initialization.cpp:75] yaw = -25.1035
+I1228 17:04:35.933295 106679 test_initialization.cpp:76] roll = -0.322864
+I1228 17:04:35.933320 106679 test_initialization.cpp:77] pitch = -0.0284941
+I1228 17:04:35.933339 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:36.432766 106679 test_initialization.cpp:75] yaw = -23.4876
+I1228 17:04:36.432807 106679 test_initialization.cpp:76] roll = -0.35221
+I1228 17:04:36.432817 106679 test_initialization.cpp:77] pitch = -0.0282786
+I1228 17:04:36.432826 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:36.932492 106679 test_initialization.cpp:75] yaw = -23.5064
+I1228 17:04:36.932571 106679 test_initialization.cpp:76] roll = -0.350089
+I1228 17:04:36.932590 106679 test_initialization.cpp:77] pitch = -0.0397397
+I1228 17:04:36.932605 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:37.433679 106679 test_initialization.cpp:75] yaw = -37.5632
+I1228 17:04:37.433702 106679 test_initialization.cpp:76] roll = -0.323558
+I1228 17:04:37.433708 106679 test_initialization.cpp:77] pitch = -0.0342529
+I1228 17:04:37.433712 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:37.934264 106679 test_initialization.cpp:75] yaw = -30.2124
+I1228 17:04:37.934360 106679 test_initialization.cpp:76] roll = -0.315958
+I1228 17:04:37.934379 106679 test_initialization.cpp:77] pitch = -0.067707
+I1228 17:04:37.934396 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:38.327010 106679 test_initialization.cpp:75] yaw = -33.2784
+I1228 17:04:38.327037 106679 test_initialization.cpp:76] roll = -0.341443
+I1228 17:04:38.327044 106679 test_initialization.cpp:77] pitch = -0.0339223
+I1228 17:04:38.327049 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:38.833174 106679 test_initialization.cpp:75] yaw = -31.7067
+I1228 17:04:38.833199 106679 test_initialization.cpp:76] roll = -0.314992
+I1228 17:04:38.833204 106679 test_initialization.cpp:77] pitch = -0.0371102
+I1228 17:04:38.833209 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:39.334905 106679 test_initialization.cpp:75] yaw = -31.6928
+I1228 17:04:39.335002 106679 test_initialization.cpp:76] roll = -0.315972
+I1228 17:04:39.335026 106679 test_initialization.cpp:77] pitch = -0.0684295
+I1228 17:04:39.335045 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:39.828006 106679 test_initialization.cpp:75] yaw = -25.4866
+I1228 17:04:39.828115 106679 test_initialization.cpp:76] roll = -0.3224
+I1228 17:04:39.828143 106679 test_initialization.cpp:77] pitch = -0.0328765
+I1228 17:04:39.828166 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:40.327803 106679 test_initialization.cpp:75] yaw = -24.3492
+I1228 17:04:40.327870 106679 test_initialization.cpp:76] roll = -0.322352
+I1228 17:04:40.327879 106679 test_initialization.cpp:77] pitch = -0.0382092
+I1228 17:04:40.327886 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:40.827409 106679 test_initialization.cpp:75] yaw = -20.3101
+I1228 17:04:40.827468 106679 test_initialization.cpp:76] roll = -0.323646
+I1228 17:04:40.827477 106679 test_initialization.cpp:77] pitch = -0.0513906
+I1228 17:04:40.827484 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:41.334571 106679 test_initialization.cpp:75] yaw = -35.1356
+I1228 17:04:41.334656 106679 test_initialization.cpp:76] roll = -0.321925
+I1228 17:04:41.334772 106679 test_initialization.cpp:77] pitch = -0.0436265
+I1228 17:04:41.334797 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:41.834983 106679 test_initialization.cpp:75] yaw = -23.6214
+I1228 17:04:41.835098 106679 test_initialization.cpp:76] roll = -0.347588
+I1228 17:04:41.835127 106679 test_initialization.cpp:77] pitch = -0.0963407
+I1228 17:04:41.835150 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:42.233897 106679 test_initialization.cpp:75] yaw = -29.8425
+I1228 17:04:42.233978 106679 test_initialization.cpp:76] roll = -0.304463
+I1228 17:04:42.233990 106679 test_initialization.cpp:77] pitch = -0.0527716
+I1228 17:04:42.233999 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:42.733009 106679 test_initialization.cpp:75] yaw = -23.4372
+I1228 17:04:42.733028 106679 test_initialization.cpp:76] roll = -0.315398
+I1228 17:04:42.733031 106679 test_initialization.cpp:77] pitch = -0.038395
+I1228 17:04:42.733032 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:43.227985 106679 test_initialization.cpp:75] yaw = -34.6087
+I1228 17:04:43.228056 106679 test_initialization.cpp:76] roll = -0.312474
+I1228 17:04:43.228068 106679 test_initialization.cpp:77] pitch = -0.0527007
+I1228 17:04:43.228078 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:43.734201 106679 test_initialization.cpp:75] yaw = -36.1073
+I1228 17:04:43.734282 106679 test_initialization.cpp:76] roll = -0.329105
+I1228 17:04:43.734294 106679 test_initialization.cpp:77] pitch = -0.0459482
+I1228 17:04:43.734304 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:44.236003 106679 test_initialization.cpp:75] yaw = -37.2969
+I1228 17:04:44.236078 106679 test_initialization.cpp:76] roll = -0.293872
+I1228 17:04:44.236090 106679 test_initialization.cpp:77] pitch = -0.0484213
+I1228 17:04:44.236099 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:44.636193 106679 test_initialization.cpp:75] yaw = -31.5432
+I1228 17:04:44.636260 106679 test_initialization.cpp:76] roll = -0.34327
+I1228 17:04:44.636271 106679 test_initialization.cpp:77] pitch = -0.0576513
+I1228 17:04:44.636281 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:45.135442 106679 test_initialization.cpp:75] yaw = -23.9162
+I1228 17:04:45.135556 106679 test_initialization.cpp:76] roll = -0.320754
+I1228 17:04:45.135571 106679 test_initialization.cpp:77] pitch = -0.0442648
+I1228 17:04:45.135581 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:45.633838 106679 test_initialization.cpp:75] yaw = -26.1161
+I1228 17:04:45.633934 106679 test_initialization.cpp:76] roll = -0.333952
+I1228 17:04:45.633949 106679 test_initialization.cpp:77] pitch = -0.0544453
+I1228 17:04:45.633960 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:46.134204 106679 test_initialization.cpp:75] yaw = -24.9212
+I1228 17:04:46.134306 106679 test_initialization.cpp:76] roll = -0.386159
+I1228 17:04:46.134322 106679 test_initialization.cpp:77] pitch = -0.0702704
+I1228 17:04:46.134335 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:46.636301 106679 test_initialization.cpp:75] yaw = -27.0051
+I1228 17:04:46.636408 106679 test_initialization.cpp:76] roll = -0.33044
+I1228 17:04:46.636432 106679 test_initialization.cpp:77] pitch = -0.0509598
+I1228 17:04:46.636451 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:47.135396 106679 test_initialization.cpp:75] yaw = -24.8329
+I1228 17:04:47.135476 106679 test_initialization.cpp:76] roll = -0.313222
+I1228 17:04:47.135488 106679 test_initialization.cpp:77] pitch = -0.0448455
+I1228 17:04:47.135495 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:47.533816 106679 test_initialization.cpp:75] yaw = -23.6273
+I1228 17:04:47.533833 106679 test_initialization.cpp:76] roll = -0.348356
+I1228 17:04:47.533836 106679 test_initialization.cpp:77] pitch = -0.0431557
+I1228 17:04:47.533874 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:48.029259 106679 test_initialization.cpp:75] yaw = -25.6782
+I1228 17:04:48.029343 106679 test_initialization.cpp:76] roll = -0.311833
+I1228 17:04:48.029356 106679 test_initialization.cpp:77] pitch = -0.052541
+I1228 17:04:48.029366 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:48.533262 106679 test_initialization.cpp:75] yaw = -30.3862
+I1228 17:04:48.533282 106679 test_initialization.cpp:76] roll = -0.342951
+I1228 17:04:48.533283 106679 test_initialization.cpp:77] pitch = -0.062693
+I1228 17:04:48.533285 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:49.028102 106679 test_initialization.cpp:75] yaw = -28.1224
+I1228 17:04:49.028195 106679 test_initialization.cpp:76] roll = -0.312787
+I1228 17:04:49.028209 106679 test_initialization.cpp:77] pitch = -0.0351239
+I1228 17:04:49.028221 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:49.527753 106679 test_initialization.cpp:75] yaw = -36.2519
+I1228 17:04:49.527779 106679 test_initialization.cpp:76] roll = -0.319831
+I1228 17:04:49.527784 106679 test_initialization.cpp:77] pitch = -0.0567383
+I1228 17:04:49.527788 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:50.034456 106679 test_initialization.cpp:75] yaw = -28.6078
+I1228 17:04:50.034561 106679 test_initialization.cpp:76] roll = -0.328127
+I1228 17:04:50.034581 106679 test_initialization.cpp:77] pitch = -0.0409817
+I1228 17:04:50.034598 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:50.433038 106679 test_initialization.cpp:75] yaw = -26.9991
+I1228 17:04:50.433063 106679 test_initialization.cpp:76] roll = -0.341693
+I1228 17:04:50.433068 106679 test_initialization.cpp:77] pitch = -0.0389229
+I1228 17:04:50.433072 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:51.035060 106679 test_initialization.cpp:75] yaw = -23.0221
+I1228 17:04:51.035176 106679 test_initialization.cpp:76] roll = -0.327444
+I1228 17:04:51.035200 106679 test_initialization.cpp:77] pitch = -0.0599873
+I1228 17:04:51.035219 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:51.434329 106679 test_initialization.cpp:75] yaw = -25.3328
+I1228 17:04:51.434362 106679 test_initialization.cpp:76] roll = -0.343095
+I1228 17:04:51.434370 106679 test_initialization.cpp:77] pitch = -0.0483169
+I1228 17:04:51.434376 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:51.935906 106679 test_initialization.cpp:75] yaw = -24.152
+I1228 17:04:51.936004 106679 test_initialization.cpp:76] roll = -0.318042
+I1228 17:04:51.936026 106679 test_initialization.cpp:77] pitch = -0.0529613
+I1228 17:04:51.936041 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:52.427425 106679 test_initialization.cpp:75] yaw = -25.9484
+I1228 17:04:52.427443 106679 test_initialization.cpp:76] roll = -0.333675
+I1228 17:04:52.427446 106679 test_initialization.cpp:77] pitch = -0.0150458
+I1228 17:04:52.427448 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:52.933769 106679 test_initialization.cpp:75] yaw = -28.678
+I1228 17:04:52.933858 106679 test_initialization.cpp:76] roll = -0.319656
+I1228 17:04:52.933871 106679 test_initialization.cpp:77] pitch = -0.0426454
+I1228 17:04:52.933881 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:53.427675 106679 test_initialization.cpp:75] yaw = -27.7174
+I1228 17:04:53.427693 106679 test_initialization.cpp:76] roll = -0.333327
+I1228 17:04:53.427695 106679 test_initialization.cpp:77] pitch = -0.074175
+I1228 17:04:53.427696 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:53.928539 106679 test_initialization.cpp:75] yaw = -26.0929
+I1228 17:04:53.928643 106679 test_initialization.cpp:76] roll = -0.315385
+I1228 17:04:53.928659 106679 test_initialization.cpp:77] pitch = -0.0510595
+I1228 17:04:53.928671 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:54.328491 106679 test_initialization.cpp:75] yaw = -33.91
+I1228 17:04:54.328579 106679 test_initialization.cpp:76] roll = -0.328671
+I1228 17:04:54.328593 106679 test_initialization.cpp:77] pitch = -0.0538462
+I1228 17:04:54.328603 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:54.834404 106679 test_initialization.cpp:75] yaw = -24.6309
+I1228 17:04:54.834496 106679 test_initialization.cpp:76] roll = -0.318951
+I1228 17:04:54.834518 106679 test_initialization.cpp:77] pitch = -0.0371573
+I1228 17:04:54.834535 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:55.329708 106679 test_initialization.cpp:75] yaw = -24.4829
+I1228 17:04:55.329823 106679 test_initialization.cpp:76] roll = -0.346617
+I1228 17:04:55.329850 106679 test_initialization.cpp:77] pitch = -0.0384161
+I1228 17:04:55.329872 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:55.834767 106679 test_initialization.cpp:75] yaw = -17.8033
+I1228 17:04:55.834823 106679 test_initialization.cpp:76] roll = -0.317221
+I1228 17:04:55.834836 106679 test_initialization.cpp:77] pitch = -0.0578976
+I1228 17:04:55.834846 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:56.335058 106679 test_initialization.cpp:75] yaw = -22.7743
+I1228 17:04:56.335158 106679 test_initialization.cpp:76] roll = -0.327843
+I1228 17:04:56.335182 106679 test_initialization.cpp:77] pitch = -0.053286
+I1228 17:04:56.335201 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:56.834192 106679 test_initialization.cpp:75] yaw = -26.1924
+I1228 17:04:56.834240 106679 test_initialization.cpp:76] roll = -0.338312
+I1228 17:04:56.834252 106679 test_initialization.cpp:77] pitch = -0.0338832
+I1228 17:04:56.834262 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:57.328258 106679 test_initialization.cpp:75] yaw = -32.022
+I1228 17:04:57.328361 106679 test_initialization.cpp:76] roll = -0.316451
+I1228 17:04:57.328382 106679 test_initialization.cpp:77] pitch = -0.0205376
+I1228 17:04:57.328398 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:57.835498 106679 test_initialization.cpp:75] yaw = -22.7648
+I1228 17:04:57.835633 106679 test_initialization.cpp:76] roll = -0.325744
+I1228 17:04:57.835666 106679 test_initialization.cpp:77] pitch = -0.0404069
+I1228 17:04:57.835673 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:58.235204 106679 test_initialization.cpp:75] yaw = -26.2949
+I1228 17:04:58.235256 106679 test_initialization.cpp:76] roll = -0.344021
+I1228 17:04:58.235265 106679 test_initialization.cpp:77] pitch = -0.045066
+I1228 17:04:58.235270 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:58.728394 106679 test_initialization.cpp:75] yaw = -30.248
+I1228 17:04:58.728482 106679 test_initialization.cpp:76] roll = -0.339382
+I1228 17:04:58.728494 106679 test_initialization.cpp:77] pitch = -0.0414267
+I1228 17:04:58.728503 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:59.228673 106679 test_initialization.cpp:75] yaw = -30.6129
+I1228 17:04:59.228761 106679 test_initialization.cpp:76] roll = -0.346943
+I1228 17:04:59.228786 106679 test_initialization.cpp:77] pitch = -0.0783801
+I1228 17:04:59.228802 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:04:59.733376 106679 test_initialization.cpp:75] yaw = -35.0214
+I1228 17:04:59.733404 106679 test_initialization.cpp:76] roll = -0.327585
+I1228 17:04:59.733408 106679 test_initialization.cpp:77] pitch = -0.070889
+I1228 17:04:59.733412 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:05:00.228065 106679 test_initialization.cpp:75] yaw = -29.135
+I1228 17:05:00.228109 106679 test_initialization.cpp:76] roll = -0.336475
+I1228 17:05:00.228116 106679 test_initialization.cpp:77] pitch = -0.0523794
+I1228 17:05:00.228122 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:05:00.728897 106679 test_initialization.cpp:75] yaw = -24.7316
+I1228 17:05:00.728997 106679 test_initialization.cpp:76] roll = -0.336312
+I1228 17:05:00.729007 106679 test_initialization.cpp:77] pitch = -0.0487935
+I1228 17:05:00.729012 106679 test_initialization.cpp:78] ------------------------------
+I1228 17:05:01.228272 106679 test_initialization.cpp:75] yaw = -31.8057
+I1228 17:05:01.228356 106679 test_initialization.cpp:76] roll = -0.343089
+I1228 17:05:01.228375 106679 test_initialization.cpp:77] pitch = -0.0678009
+I1228 17:05:01.228390 106679 test_initialization.cpp:78] ------------------------------

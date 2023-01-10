@@ -1,0 +1,6 @@
+Log file created at: 2022/12/27 10:25:37
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1227 10:25:37.818799 40101 ins_eskf_node.cpp:22] INS ESKF STARTED.
+I1227 10:25:37.818902 40101 ins_eskf_ROS_wrapper.cpp:13] imu topic : /kitti/oxts/imu/extract
+I1227 10:25:37.818903 40101 ins_eskf_ROS_wrapper.cpp:14] gps topic : /kitti/oxts/gps/fix/extract
