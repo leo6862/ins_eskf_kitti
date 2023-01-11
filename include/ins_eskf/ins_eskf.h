@@ -32,18 +32,19 @@ public:
 
     struct Measure{
         std::vector<IMU_data> imu_buf;
-        std::vector<GPS_data> gps_buf;
+        GPS_data gps_data;
     };
 
     Ins_eskf(YAML::Node &_node);
     void recieve_imu(const IMU_data _imu_data);
     void recieve_gps(const GPS_data _gps_data);
-    void recieve_measure();
+    void recieve_measure(Measure _measure);
     void specify_init_state(const State& _init_state,double _initialization_stamp);
 private:
     // void initialization_kitti();
 
 private:
+    Measure current_measure;
     bool initialized = false;
     std::string dataset = "kitti";
     double initialization_stamp;

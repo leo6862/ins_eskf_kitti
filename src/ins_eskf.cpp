@@ -51,7 +51,13 @@ void Ins_eskf::specify_init_state(const State& _init_state,double _initializatio
     initialization_stamp = _initialization_stamp;
     state_stamp = _initialization_stamp;
     CHECK(initialization_stamp != -1) << " Havn't specify initialization_stamp in ROS_wrapper.";
-    
+
+}
+
+
+
+void Ins_eskf::recieve_measure(Measure _measure){
+    current_measure = _measure;
 }
 
 

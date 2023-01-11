@@ -40,7 +40,21 @@ void Ins_eskf_ROS_Wrapper::register_sub_pub(){
     
 }
 
+void Ins_eskf_ROS_Wrapper::DEBUG_check_synce_measure(){
+/*
+    !  DEBUG
+    1. 在此处测试一下打包的measure 中的imu队列以及gps的时间戳
+    2. 以及剩余的imu_buf gps_buf中的数据的情况
+*/
+    LOG(INFO) << std::setprecision(14) << "measure.imu_buf.size() = " << measure.imu_buf.size();
+    for(int i = 0;i < measure.imu_buf.size();i++){
+        LOG(INFO) << std::setprecision(14) << "No. " << i << " imu data stamp = " << measure.imu_buf[i].stamp; 
+    }
+    LOG(INFO) << std::setprecision(14) << "measure.gps_data.stamp = " << measure.gps_data.stamp;
+    LOG(INFO) << "-------------------------------------------------";
 
+
+}
 
 void Ins_eskf_ROS_Wrapper::gps_cb(const sensor_msgs::NavSatFixConstPtr& gps_in){
 
@@ -53,9 +67,18 @@ void Ins_eskf_ROS_Wrapper::gps_cb(const sensor_msgs::NavSatFixConstPtr& gps_in){
     gps_buf.push_back(gps_data_ros);
     mtx.unlock();
 
-    Ins_eskf::GPS_data gps_data;
-    gps_data.stamp = gps_in->header.stamp.toSec();
-    gps_data.lla << gps_in->latitude , gps_in->longitude,gps_in->altitude;
+
+
+    if(synce_measure()){
+        p_ins_eskf->recieve_measure(measure);
+    }
+
+
+    DEBUG_check_synce_measure();
+
+    // Ins_eskf::GPS_data gps_data;
+    // gps_data.stamp = gps_in->header.stamp.toSec();
+    // gps_data.lla << gps_in->latitude , gps_in->longitude,gps_in->altitude;
 
     // LOG(INFO) << "DEBUG current gps_buf.size() = " << gps_buf.size();
     // LOG(INFO) << "DEBUG current imu_buf.size() = " << imu_buf.size();
@@ -98,17 +121,17 @@ void Ins_eskf_ROS_Wrapper::imu_cb(const sensor_msgs::ImuConstPtr& imu_in){
     mtx.unlock();
 
 
-    Ins_eskf::IMU_data imu_data;
+    Ins_eskf::IMU_data imu_data = imu_msg_2_data(*imu_in);
 
 
-    imu_data.stamp = imu_in->header.stamp.toSec();
-    imu_data.linear_acc   << imu_in->linear_acceleration.x ,
-                             imu_in->linear_acceleration.y ,
-                             imu_in->linear_acceleration.z ;
+    // imu_data.stamp = imu_in->header.stamp.toSec();
+    // imu_data.linear_acc   << imu_in->linear_acceleration.x ,
+    //                          imu_in->linear_acceleration.y ,
+    //                          imu_in->linear_acceleration.z ;
 
-    imu_data.angular_velo << imu_in->angular_velocity.x ,
-                             imu_in->angular_velocity.y ,
-                             imu_in->angular_velocity.z ;
+    // imu_data.angular_velo << imu_in->angular_velocity.x ,
+    //                          imu_in->angular_velocity.y ,
+    //                          imu_in->angular_velocity.z ;
 
 
     // LOG(INFO) << "imu data recieved.";
@@ -186,17 +209,76 @@ void Ins_eskf_ROS_Wrapper::initialization_kitti(){
 }
 
 
-void Ins_eskf_ROS_Wrapper::synce_measure(){
+bool Ins_eskf_ROS_Wrapper::synce_measure(){
     /*
-    在imu_buf 以及 gps_buff 中进行数据的时间的筛选
-    将数据打包 ：
-          。。。。。。。。。。。。。  。 IMU数据
-                               ！   GPS数据
-    按照以上的形式对数据进行打包
+    0.确保gps_buf以及 imu_buf都不为空
+    1.如果最新的imu数据时间戳仍然早于gps数据的时间戳，则继续等待
+    2.当前的imu数据已经覆盖了最老的gps数据的时间，将该帧GPS数据以及该帧GPS之前的所有IMU数据一起打包
     */
 
+
+    //! 这个地方可以不用上mtx的锁了   因为其余的会操作imu_bug 以及gps_buf的地方都已经上锁了
+    //! 所以这个地方不上锁问题也不大
     //TODO 已经将数据加入到了 imu_buf 以及 gps_buf了准备开干
+    
+    if(gps_buf.empty() || imu_buf.empty()){
+        return false;
+    }
+
+    double recent_gps_stamp = gps_buf.front().header.stamp.toSec();
+    if(imu_buf.back().header.stamp.toSec() < recent_gps_stamp){
+        return false;
+    }
+
+    measure.imu_buf.clear();
+
+    while(imu_buf.front().header.stamp.toSec() < recent_gps_stamp){
+        measure.imu_buf.push_back(imu_msg_2_data(imu_buf.front()));
+        imu_buf.pop_front();
+    }
+
+    measure.gps_data = gps_msg_2_data(gps_buf.front());
+    gps_buf.pop_front();
+
+    return true;
+
 }
+
+
+
+
+
+Ins_eskf::IMU_data Ins_eskf_ROS_Wrapper::imu_msg_2_data(sensor_msgs::Imu _imu_msg){
+
+    Ins_eskf::IMU_data imu_data_;
+
+
+    imu_data_.stamp = _imu_msg.header.stamp.toSec();
+    imu_data_.linear_acc   << _imu_msg.linear_acceleration.x ,
+                             _imu_msg.linear_acceleration.y ,
+                             _imu_msg.linear_acceleration.z ;
+
+    imu_data_.angular_velo << _imu_msg.angular_velocity.x ,
+                             _imu_msg.angular_velocity.y ,
+                             _imu_msg.angular_velocity.z ;
+    
+    return imu_data_;
+
+
+}
+Ins_eskf::GPS_data Ins_eskf_ROS_Wrapper::gps_msg_2_data(sensor_msgs::NavSatFix _gps_msg){
+    Ins_eskf::GPS_data gps_data_;
+    gps_data_.stamp = _gps_msg.header.stamp.toSec();
+    gps_data_.lla << _gps_msg.latitude , _gps_msg.longitude,_gps_msg.altitude;
+    return gps_data_;
+}
+
+
+
+
+
+
+
 
 
 

@@ -10,6 +10,7 @@
 
 #include <glog/logging.h>
 #include <string>
+#include <deque>
 #include <mutex>
 namespace ins_eskf{
 
@@ -24,28 +25,33 @@ private:
     void kitti_vel_cb(const geometry_msgs::TwistStampedConstPtr& twist_in);
     void register_sub_pub();
     void initialization_kitti();
-    void synce_measure();
+    bool synce_measure();
+    Ins_eskf::IMU_data imu_msg_2_data(sensor_msgs::Imu _imu_msg); //TODO
+    Ins_eskf::GPS_data gps_msg_2_data(sensor_msgs::NavSatFix _gps_msg); //TODO
+
+
+    void DEBUG_check_synce_measure();
 private:
     ros::NodeHandle nh;
-
     ros::Subscriber sub_imu;
     ros::Subscriber sub_gps;
     ros::Subscriber sub_vel;
     ros::Publisher pub_pos;
     std::shared_ptr<Ins_eskf> p_ins_eskf;
 
-
     std::string dataset = "kitti";
+
 
 
     std::string imu_topic,gps_topic;
     std::string kitti_vel_topic;
     bool initialized = false;
     std::mutex mtx;
-    std::vector<sensor_msgs::NavSatFix> gps_buf;
-    std::vector<sensor_msgs::Imu> imu_buf;
+    std::deque<sensor_msgs::NavSatFix> gps_buf;
+    std::deque<sensor_msgs::Imu> imu_buf;
     std::vector<geometry_msgs::TwistStamped> init_twist_buf;
     Ins_eskf::State init_state;
+    Ins_eskf::Measure measure;
     double initialization_stamp = -1;
 };
 
