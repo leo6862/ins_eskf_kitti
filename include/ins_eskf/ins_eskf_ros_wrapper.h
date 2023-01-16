@@ -6,7 +6,9 @@
 #include <sensor_msgs/Imu.h>
 #include <sensor_msgs/NavSatFix.h>
 #include <geometry_msgs/TwistStamped.h>
+#include <nav_msgs/Odometry.h>
 #include <ins_eskf/ins_eskf.h>
+#include <GeographicLib/LocalCartesian.hpp>
 
 #include <glog/logging.h>
 #include <string>
@@ -26,10 +28,12 @@ private:
     void register_sub_pub();
     void initialization_kitti();
     bool synce_measure();
-    Ins_eskf::IMU_data imu_msg_2_data(sensor_msgs::Imu _imu_msg); //TODO
-    Ins_eskf::GPS_data gps_msg_2_data(sensor_msgs::NavSatFix _gps_msg); //TODO
+    Ins_eskf::IMU_data imu_msg_2_data(sensor_msgs::Imu _imu_msg); 
+    Ins_eskf::GPS_data gps_msg_2_data(sensor_msgs::NavSatFix _gps_msg); 
+    sensor_msgs::NavSatFix gps_data_2_msg(Ins_eskf::GPS_data& _gps_data);
 
-
+    nav_msgs::Odometry state_to_odom_msg(Ins_eskf::State _state,double _stamp);
+    void DEBUG_visualize_imu_propagation_res_and_kitti_gps_magnetormeter();
     void DEBUG_check_synce_measure();
 private:
     ros::NodeHandle nh;
@@ -53,6 +57,14 @@ private:
     Ins_eskf::State init_state;
     Ins_eskf::Measure measure;
     double initialization_stamp = -1;
+
+
+    //TODO 用于Debug的GeographicLib::LocalCartesian 
+    GeographicLib::LocalCartesian geo_converter_;
+    nav_msgs::Odometry kitti_gps_odom_msg_;
+    ros::Publisher pub_imu_odometrty_;
+    ros::Publisher pub_kitti_gps_odometrty_;
+
 };
 
 

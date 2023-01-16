@@ -1,0 +1,4 @@
+Log file created at: 2023/01/16 22:35:48
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0116 22:35:48.867238 18550 ins_eskf.cpp:90] Check failed: _measure.gps_data.stamp - state_stamp < 1.1 Too large time gap between current state and coming gps data.

@@ -1,0 +1,11 @@
+Log file created at: 2023/01/14 18:06:25
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0114 18:06:25.382992 27152 ins_eskf_node.cpp:22] INS ESKF STARTED.
+I0114 18:06:25.383134 27152 ins_eskf_ROS_wrapper.cpp:15] imu topic : /kitti/oxts/imu/extract
+I0114 18:06:25.383136 27152 ins_eskf_ROS_wrapper.cpp:16] gps topic : /kitti/oxts/gps/fix
+I0114 18:06:25.383138 27152 ins_eskf_ROS_wrapper.cpp:17] using dataset: kitti
+I0114 18:06:25.383139 27152 ins_eskf_ROS_wrapper.cpp:20] Using imu and vel in kitti for initialization.
+I0114 18:06:25.865100 27152 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0114 18:06:25.865128 27152 ins_eskf.cpp:79] state_stamp = -1
+F0114 18:06:25.865134 27152 ins_eskf_ROS_wrapper.cpp:313] Check failed: !gps_buf.empty() && !imu_buf.empty()  empty gps buf or imu_buf

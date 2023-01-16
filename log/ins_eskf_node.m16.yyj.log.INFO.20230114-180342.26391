@@ -1,0 +1,9 @@
+Log file created at: 2023/01/14 18:03:42
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0114 18:03:42.569190 26391 ins_eskf_node.cpp:22] INS ESKF STARTED.
+I0114 18:03:42.569773 26391 ins_eskf_ROS_wrapper.cpp:15] imu topic : /kitti/oxts/imu/extract
+I0114 18:03:42.569782 26391 ins_eskf_ROS_wrapper.cpp:16] gps topic : /kitti/oxts/gps/fix
+I0114 18:03:42.569785 26391 ins_eskf_ROS_wrapper.cpp:17] using dataset: kitti
+I0114 18:03:42.569787 26391 ins_eskf_ROS_wrapper.cpp:20] Using imu and vel in kitti for initialization.
+F0114 18:03:43.692045 26391 ins_eskf.cpp:78] Check failed: _measure.gps_data.stamp - state_stamp < 1.1 Too large time gap between current state and coming gps data.

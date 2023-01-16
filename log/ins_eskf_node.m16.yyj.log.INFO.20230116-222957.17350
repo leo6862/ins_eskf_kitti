@@ -1,0 +1,42 @@
+Log file created at: 2023/01/16 22:29:57
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0116 22:29:57.575212 17350 ins_eskf_node.cpp:22] INS ESKF STARTED.
+I0116 22:29:57.575337 17350 ins_eskf_ROS_wrapper.cpp:15] imu topic : /kitti/oxts/imu/extract
+I0116 22:29:57.575340 17350 ins_eskf_ROS_wrapper.cpp:16] gps topic : /kitti/oxts/gps/fix
+I0116 22:29:57.575341 17350 ins_eskf_ROS_wrapper.cpp:17] using dataset: kitti
+I0116 22:29:57.575342 17350 ins_eskf_ROS_wrapper.cpp:20] Using imu and vel in kitti for initialization.
+I0116 22:29:58.067188 17350 ins_eskf_ROS_wrapper.cpp:116] initialization completed.
+I0116 22:29:58.157445 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.157472 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.157500 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:58.267324 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.267346 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.267355 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:58.367404 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.367422 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.367429 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:58.467566 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.467584 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.467592 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:58.578652 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.578747 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.578792 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:58.678412 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.678503 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.678544 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:58.777612 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.777690 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.777729 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:58.888101 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.888154 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.888180 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:58.987849 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:58.987903 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:58.987929 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:59.098183 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:59.098251 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+I0116 22:29:59.098282 17350 ins_eskf_ROS_wrapper.cpp:343] DEBUG imu odom and kitti gps odom published.
+I0116 22:29:59.197976 17350 ins_eskf.cpp:78] _measure.gps_data.stamp = 1.31765e+09
+I0116 22:29:59.198036 17350 ins_eskf.cpp:79] state_stamp = 1.31765e+09
+F0116 22:29:59.198045 17350 ins_eskf.cpp:81] Check failed: _measure.gps_data.stamp - state_stamp < 1.1 Too large time gap between current state and coming gps data.

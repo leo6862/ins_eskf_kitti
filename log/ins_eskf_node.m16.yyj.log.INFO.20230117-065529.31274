@@ -1,0 +1,18 @@
+Log file created at: 2023/01/17 06:55:29
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0117 06:55:29.684006 31274 ins_eskf_node.cpp:22] INS ESKF STARTED.
+I0117 06:55:29.684137 31274 ins_eskf_ROS_wrapper.cpp:15] imu topic : /kitti/oxts/imu/extract
+I0117 06:55:29.684140 31274 ins_eskf_ROS_wrapper.cpp:16] gps topic : /kitti/oxts/gps/fix
+I0117 06:55:29.684141 31274 ins_eskf_ROS_wrapper.cpp:17] using dataset: kitti
+I0117 06:55:29.684144 31274 ins_eskf_ROS_wrapper.cpp:20] Using imu and vel in kitti for initialization.
+I0117 06:55:30.063910 31274 ins_eskf_ROS_wrapper.cpp:116] initialization completed.
+I0117 06:55:30.164356 31274 ins_eskf_ROS_wrapper.cpp:342] kitti gps odom pos : 0.239191 0.465744 0.00458524
+I0117 06:55:30.164391 31274 ins_eskf_ROS_wrapper.cpp:345] imu odom pos : 0.538419 -0.0229142 0.00207613
+I0117 06:55:30.164397 31274 ins_eskf_ROS_wrapper.cpp:348] DEBUG imu odom and kitti gps odom published.
+I0117 06:55:30.264364 31274 ins_eskf_ROS_wrapper.cpp:342] kitti gps odom pos : 0.463718 0.870184 0.00788109
+I0117 06:55:30.264386 31274 ins_eskf_ROS_wrapper.cpp:345] imu odom pos : 1.03295 -0.0591823 0.00310118
+I0117 06:55:30.264392 31274 ins_eskf_ROS_wrapper.cpp:348] DEBUG imu odom and kitti gps odom published.
+I0117 06:55:30.374485 31274 ins_eskf_ROS_wrapper.cpp:342] kitti gps odom pos : 0.715613 1.29779 0.0147932
+I0117 06:55:30.374519 31274 ins_eskf_ROS_wrapper.cpp:345] imu odom pos : 1.58181 -0.116826 0.00629116
+I0117 06:55:30.374527 31274 ins_eskf_ROS_wrapper.cpp:348] DEBUG imu odom and kitti gps odom published.

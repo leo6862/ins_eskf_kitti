@@ -3,7 +3,7 @@ project(ins_eskf)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
-
+SET(CMAKE_BUILD_TYPE debug) 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
@@ -15,6 +15,8 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(yaml-cpp REQUIRED)
+find_package (GeographicLib REQUIRED)
+
 
 
 ## System dependencies are found with CMake's conventions
@@ -123,6 +125,7 @@ include_directories(
 include
   ${catkin_INCLUDE_DIRS}
   ${YAML_CPP_INCLUDE_DIRS}
+  ${GeographicLib_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -145,6 +148,7 @@ add_executable(ins_eskf_node
 target_link_libraries(ins_eskf_node
   ${catkin_LIBRARIES}
   -lglog
+  ${GeographicLib_LIBRARIES}
   ${YAML_CPP_LIBRARIES}
 )
 

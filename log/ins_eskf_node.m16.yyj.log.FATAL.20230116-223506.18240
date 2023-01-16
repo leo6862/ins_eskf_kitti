@@ -1,0 +1,4 @@
+Log file created at: 2023/01/16 22:35:06
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0116 22:35:06.232587 18240 ins_eskf.cpp:84] Check failed: _measure.gps_data.stamp - state_stamp > 0 Coming gps data stamp earlier than current state.Time Seq Error.

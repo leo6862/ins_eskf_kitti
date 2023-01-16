@@ -5,8 +5,9 @@
 #include <yaml-cpp/yaml.h>
 #include <mutex>
 #include <glog/logging.h>
+#include <iomanip>
 #include <stdlib.h>
-
+#include <GeographicLib/LocalCartesian.hpp>
 namespace ins_eskf{
 class Ins_eskf{
 public:
@@ -39,16 +40,26 @@ public:
     void recieve_imu(const IMU_data _imu_data);
     void recieve_gps(const GPS_data _gps_data);
     void recieve_measure(Measure _measure);
-    void specify_init_state(const State& _init_state,double _initialization_stamp);
-private:
-    // void initialization_kitti();
+    void specify_init_state(const State& _init_state,GPS_data _init_gps_data);
+    inline State get_state() {return state;}
+    inline double get_state_stamp() {return state_stamp;}
+
 
 private:
+    // void initialization_kitti();
+    void prediction(); //imu 惯性解算获得nomial state.
+    void forward_propagation(IMU_data _imu_data);
+    void correction();
+
+    Eigen::Matrix3f Exp(const Eigen::Vector3f &ang_vel, const float &dt);
+    
+private:
+    GeographicLib::LocalCartesian geo_converter;
     Measure current_measure;
     bool initialized = false;
     std::string dataset = "kitti";
-    double initialization_stamp;
-    double state_stamp;
+    // double initialization_stamp;
+    double state_stamp = -1;
     State state;
     std::mutex mtx;
 }; 

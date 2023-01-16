@@ -1,0 +1,4 @@
+Log file created at: 2023/01/16 22:14:32
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0116 22:14:32.730197 15238 ins_eskf_ROS_wrapper.cpp:318] Check failed: !gps_buf.empty() && !imu_buf.empty()  empty gps buf or imu_buf
