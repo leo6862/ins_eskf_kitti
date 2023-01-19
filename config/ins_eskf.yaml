@@ -8,4 +8,32 @@ gps_topic: /kitti/oxts/gps/fix
 #只有在dataset == kitti的时候才有效
 kitti/vel_topic: /kitti/oxts/gps/vel
 
+#p v q bg ba g 的顺序， 共18个量
+#! 这是一个超参数  需要在调试调试
+init_state_std: [
+ 0.001,0.001,0.001,
+ 0.001,0.001,0.001,
+ 0.005,0.005,0.005,
+ 0.001,0.001,0.001,
+ 0.001,0.001,0.001,
+ 0.001,0.001,0.001
+]
+
+
+
+
+#高翔知乎中写的Q阵的计算方式  与imu数据与delta_t都没有关系
+Q_gao_xiang/Q_v: 0.0001
+Q_gao_xiang/Q_q: 0.0001
+Q_gao_xiang/Q_bg: 0.0001
+Q_gao_xiang/Q_ba: 0.0001
+
+
+
+#GPS 观测的噪声
+v_x: 0.003
+v_y: 0.003
+v_z: 0.003
+
+
 

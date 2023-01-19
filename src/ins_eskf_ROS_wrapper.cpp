@@ -186,6 +186,7 @@ void Ins_eskf_ROS_Wrapper::initialization_kitti(){
                                     imu_buf[imu_data_index].orientation.y,
                                     imu_buf[imu_data_index].orientation.z);
     init_state.q = q_front_imu.slerp(back_propotion,q_back_imu);
+    init_state.v = init_state.q * init_state.v; //注意原来的速度是b系下的 乘以姿态转化到东北天坐标系下
     init_state.bg = Eigen::Vector3f::Zero();
     init_state.ba = Eigen::Vector3f::Zero();
     init_state.g = Eigen::Vector3f(0,0,-9.81);
@@ -326,13 +327,13 @@ void Ins_eskf_ROS_Wrapper::DEBUG_visualize_imu_propagation_res_and_kitti_gps_mag
     //将kitti_gps_odom_msg_以及 imu_odom_发布出去
     pub_imu_odometrty_.publish(imu_odom_);
     pub_kitti_gps_odometrty_.publish(kitti_gps_odom_msg_);
-    LOG(INFO) << "kitti gps odom pos : " << kitti_gps_odom_msg_.pose.pose.position.x << " "
-                                         << kitti_gps_odom_msg_.pose.pose.position.y << " "
-                                         << kitti_gps_odom_msg_.pose.pose.position.z;
-    LOG(INFO) << "imu odom pos : " << imu_odom_.pose.pose.position.x << " "
-                                         << imu_odom_.pose.pose.position.y << " "
-                                         << imu_odom_.pose.pose.position.z;
-    LOG(INFO) << "DEBUG imu odom and kitti gps odom published.";
+    // LOG(INFO) << "kitti gps odom pos : " << kitti_gps_odom_msg_.pose.pose.position.x << " "
+    //                                      << kitti_gps_odom_msg_.pose.pose.position.y << " "
+    //                                      << kitti_gps_odom_msg_.pose.pose.position.z;
+    // LOG(INFO) << "imu odom pos : " << imu_odom_.pose.pose.position.x << " "
+    //                                      << imu_odom_.pose.pose.position.y << " "
+    //                                      << imu_odom_.pose.pose.position.z;
+    // LOG(INFO) << "DEBUG imu odom and kitti gps odom published.";
 
 }
 

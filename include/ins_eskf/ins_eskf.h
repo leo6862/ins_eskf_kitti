@@ -43,13 +43,15 @@ public:
     void specify_init_state(const State& _init_state,GPS_data _init_gps_data);
     inline State get_state() {return state;}
     inline double get_state_stamp() {return state_stamp;}
-
-
+    Eigen::Matrix3f BuildSkewMatrix(const Eigen::Vector3f& vec);
+    
 private:
     // void initialization_kitti();
     void prediction(); //imu 惯性解算获得nomial state.
     void forward_propagation(IMU_data _imu_data);
-    void correction();
+    void correction(Eigen::Vector3f _observation_gps_cartesian);
+    Eigen::Matrix<float,18,18>  make_Fx_matrix_from_imu_and_delta_t(IMU_data _imu_data,float _delta_t);
+    Eigen::Matrix<float,18,18> make_Q_matrix_from_imu_and_delta_t(IMU_data _imu_data,float _delta_t);
 
     Eigen::Matrix3f Exp(const Eigen::Vector3f &ang_vel, const float &dt);
     
@@ -62,6 +64,25 @@ private:
     double state_stamp = -1;
     State state;
     std::mutex mtx;
+
+
+    Eigen::Matrix<float,18,18> state_std; //当前状态的方差阵
+
+
+
+
+    //variabels for Q matrix (Gao Xiang edition)
+    bool use_gao_xiang_q_matrix = true;
+    float Q_v = -1; //这个-1是一个标志位  判断是否已经通过YAML::Node给Q中的元素赋值
+    float Q_q;
+    float Q_bg;
+    float Q_ba;
+
+    //variables for V .Observation noise 
+    float v_x;
+    float v_y;
+    float v_z;
+
 }; 
 
 }

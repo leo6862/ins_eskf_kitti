@@ -1,0 +1,871 @@
+Log file created at: 2023/01/19 16:09:55
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 16:09:55.229478 17844 ins_eskf_node.cpp:22] INS ESKF STARTED.
+I0119 16:09:55.229627 17844 ins_eskf_ROS_wrapper.cpp:15] imu topic : /kitti/oxts/imu/extract
+I0119 16:09:55.229629 17844 ins_eskf_ROS_wrapper.cpp:16] gps topic : /kitti/oxts/gps/fix
+I0119 16:09:55.229631 17844 ins_eskf_ROS_wrapper.cpp:17] using dataset: kitti
+I0119 16:09:55.229632 17844 ins_eskf_ROS_wrapper.cpp:20] Using imu and vel in kitti for initialization.
+I0119 16:09:55.229691 17844 ins_eskf.cpp:29] Q_v = 0.03
+I0119 16:09:55.229698 17844 ins_eskf.cpp:30] Q_q = 0.04
+I0119 16:09:55.229701 17844 ins_eskf.cpp:31] Q_bg = 0.05
+I0119 16:09:55.229702 17844 ins_eskf.cpp:32] Q_ba = 0.06
+I0119 16:09:55.614215 17844 ins_eskf_ROS_wrapper.cpp:116] initialization completed.
+I0119 16:09:55.714978 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 0.239191 0.465744 0.00458524
+I0119 16:09:55.714998 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 0.538419 -0.0229142 0.00207613
+I0119 16:09:55.715000 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:55.815167 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 0.463718 0.870184 0.00788109
+I0119 16:09:55.815187 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 1.03295 -0.0591823 0.00310118
+I0119 16:09:55.815191 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:55.925197 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 0.715613 1.29779 0.0147932
+I0119 16:09:55.925220 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 1.58181 -0.116826 0.00629116
+I0119 16:09:55.925225 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.025193 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 0.951022 1.67409 0.0199201
+I0119 16:09:56.025234 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 2.08543 -0.183551 0.010663
+I0119 16:09:56.025238 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.125838 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 1.19301 2.04124 0.0236888
+I0119 16:09:56.125864 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 2.59434 -0.260783 0.0145738
+I0119 16:09:56.125869 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.238005 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 1.46972 2.43135 0.024772
+I0119 16:09:56.238049 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 3.16279 -0.357968 0.0168687
+I0119 16:09:56.238057 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.335481 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 1.7305 2.77435 0.0225822
+I0119 16:09:56.335500 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 3.68854 -0.458031 0.0161186
+I0119 16:09:56.335505 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.434926 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 2.00228 3.10076 0.0223378
+I0119 16:09:56.434962 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 4.22456 -0.571366 0.0143254
+I0119 16:09:56.434965 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.545842 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 2.31306 3.43993 0.0223146
+I0119 16:09:56.545866 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 4.82652 -0.714462 0.013332
+I0119 16:09:56.545872 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.645306 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 2.60606 3.72801 0.020819
+I0119 16:09:56.645330 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 5.38083 -0.861752 0.0120515
+I0119 16:09:56.645335 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.756143 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 2.9403 4.02303 0.0157299
+I0119 16:09:56.756172 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 6.00418 -1.04603 0.00883782
+I0119 16:09:56.756177 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.855063 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 3.25538 4.26716 0.00794757
+I0119 16:09:56.855106 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 6.58186 -1.23499 0.00417917
+I0119 16:09:56.855110 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:56.955415 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 3.57999 4.48972 -0.000666342
+I0119 16:09:56.955441 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 7.16929 -1.44561 -0.00253123
+I0119 16:09:56.955448 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.068184 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 3.94831 4.70606 -0.00707541
+I0119 16:09:57.068235 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 7.82449 -1.70407 -0.0080982
+I0119 16:09:57.068248 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.167997 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 4.29097 4.87784 -0.00863215
+I0119 16:09:57.168046 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 8.42842 -1.96451 -0.00949874
+I0119 16:09:57.168058 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.275558 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 4.67715 5.04275 -0.00951756
+I0119 16:09:57.275590 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 9.10218 -2.27673 -0.00833325
+I0119 16:09:57.275595 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.375475 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 5.03985 5.1667 -0.0144847
+I0119 16:09:57.375501 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 9.72241 -2.58311 -0.00785197
+I0119 16:09:57.375507 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.475752 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 5.40736 5.26848 -0.0216185
+I0119 16:09:57.475781 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 10.3496 -2.91231 -0.00941319
+I0119 16:09:57.475787 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.585145 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 5.8185 5.34936 -0.031377
+I0119 16:09:57.585175 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 11.0414 -3.30124 -0.0125884
+I0119 16:09:57.585179 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.685011 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 6.19266 5.39865 -0.0376792
+I0119 16:09:57.685034 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 11.6746 -3.68207 -0.0152036
+I0119 16:09:57.685037 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.798389 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 6.60525 5.43175 -0.0442257
+I0119 16:09:57.798439 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 12.3724 -4.12589 -0.0170413
+I0119 16:09:57.798449 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.910166 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 6.98475 5.4447 -0.0527176
+I0119 16:09:57.910218 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 13.007 -4.54567 -0.0187117
+I0119 16:09:57.910229 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:57.998484 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 7.36557 5.43701 -0.0615071
+I0119 16:09:57.998526 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 13.6412 -4.98351 -0.0213849
+I0119 16:09:57.998538 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.115927 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 7.77792 5.40143 -0.0688165
+I0119 16:09:58.115955 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 14.3361 -5.49221 -0.0248555
+I0119 16:09:58.115959 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.207129 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 8.15459 5.34424 -0.0738295
+I0119 16:09:58.207180 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 14.9661 -5.98034 -0.0265195
+I0119 16:09:58.207182 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.307224 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 8.5278 5.2756 -0.0793307
+I0119 16:09:58.307253 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 15.5945 -6.4872 -0.0275591
+I0119 16:09:58.307258 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.426448 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 8.94446 5.19668 -0.0900276
+I0119 16:09:58.426470 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 16.2879 -7.0535 -0.0317541
+I0119 16:09:58.426473 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.516376 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 9.32552 5.11853 -0.0965741
+I0119 16:09:58.516396 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 16.9227 -7.57359 -0.0371275
+I0119 16:09:58.516400 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.616567 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 9.70496 5.02475 -0.0975817
+I0119 16:09:58.616595 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 17.5586 -8.10251 -0.0382294
+I0119 16:09:58.616600 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.737169 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 10.1265 4.89937 -0.10055
+I0119 16:09:58.737201 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 18.2612 -8.70688 -0.03647
+I0119 16:09:58.737211 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.827065 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 10.5104 4.76813 -0.104892
+I0119 16:09:58.827091 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 18.9026 -9.27475 -0.0357705
+I0119 16:09:58.827097 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:58.927119 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 10.902 4.61909 -0.127994
+I0119 16:09:58.927147 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 19.5467 -9.85759 -0.0434131
+I0119 16:09:58.927157 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.045954 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 11.3413 4.45119 -0.153675
+I0119 16:09:59.045980 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 20.2626 -10.5115 -0.0632029
+I0119 16:09:59.045985 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.135885 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 11.7518 4.29002 -0.159192
+I0119 16:09:59.135908 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 20.9224 -11.1112 -0.0733739
+I0119 16:09:59.135915 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.234840 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 12.17 4.11609 -0.150014
+I0119 16:09:59.234869 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 21.5907 -11.7206 -0.0673922
+I0119 16:09:59.234874 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.346453 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 12.634 3.90882 -0.140997
+I0119 16:09:59.346475 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 22.3354 -12.4057 -0.0540414
+I0119 16:09:59.346482 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.446460 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 13.0621 3.70729 -0.136779
+I0119 16:09:59.446486 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 23.0191 -13.0408 -0.0447755
+I0119 16:09:59.446493 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.566262 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 13.5406 3.4717 -0.137299
+I0119 16:09:59.566289 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 23.7808 -13.7542 -0.0391984
+I0119 16:09:59.566323 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.656543 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 13.9875 3.24531 -0.138909
+I0119 16:09:59.656563 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 24.4828 -14.4146 -0.0373381
+I0119 16:09:59.656567 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.759248 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 14.4452 3.00905 -0.140352
+I0119 16:09:59.759305 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 25.1963 -15.0857 -0.0367072
+I0119 16:09:59.759320 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.876781 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 14.9613 2.73713 -0.143397
+I0119 16:09:59.876816 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 25.995 -15.8361 -0.0360207
+I0119 16:09:59.876825 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:09:59.969801 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 15.4457 2.48064 -0.149479
+I0119 16:09:59.969851 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 26.7359 -16.5304 -0.0358673
+I0119 16:09:59.969863 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.069325 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 15.9443 2.21497 -0.157262
+I0119 16:10:00.069383 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 27.4875 -17.231 -0.0365335
+I0119 16:10:00.069396 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.188760 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 16.5101 1.90902 -0.161887
+I0119 16:10:00.188807 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 28.3317 -18.0154 -0.0361303
+I0119 16:10:00.188820 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.278616 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 17.0326 1.61547 -0.167213
+I0119 16:10:00.278663 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 29.1125 -18.741 -0.0346258
+I0119 16:10:00.278677 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.377080 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 17.572 1.31486 -0.171388
+I0119 16:10:00.377126 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 29.9068 -19.4751 -0.0329951
+I0119 16:10:00.377135 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.487952 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 18.1778 0.96935 -0.176654
+I0119 16:10:00.487995 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 30.7971 -20.2928 -0.030778
+I0119 16:10:00.488008 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.588649 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 18.7414 0.646897 -0.181226
+I0119 16:10:00.588696 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 31.6183 -21.0455 -0.0289038
+I0119 16:10:00.588706 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.707942 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 19.3729 0.279113 -0.188109
+I0119 16:10:00.707978 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 32.5377 -21.886 -0.0267206
+I0119 16:10:00.707986 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.798607 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 19.9651 -0.0604817 -0.194504
+I0119 16:10:00.798650 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 33.3869 -22.6562 -0.0253102
+I0119 16:10:00.798660 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:00.896005 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 20.5718 -0.404972 -0.200412
+I0119 16:10:00.896030 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 34.2509 -23.4318 -0.0243591
+I0119 16:10:00.896036 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.016014 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 21.2551 -0.792183 -0.2067
+I0119 16:10:01.016039 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 35.2183 -24.2922 -0.0234401
+I0119 16:10:01.016044 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.108451 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 21.895 -1.14373 -0.206947
+I0119 16:10:01.108500 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 36.1125 -25.0783 -0.0227948
+I0119 16:10:01.108512 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.207460 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 22.5481 -1.49898 -0.20772
+I0119 16:10:01.207501 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 37.0221 -25.8686 -0.0220846
+I0119 16:10:01.207510 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.316700 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 23.2845 -1.89131 -0.211446
+I0119 16:10:01.316728 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 38.038 -26.7402 -0.02094
+I0119 16:10:01.316736 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.418782 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 23.9619 -2.24902 -0.216301
+I0119 16:10:01.418829 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 38.9755 -27.535 -0.0212277
+I0119 16:10:01.418843 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.536072 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 24.7181 -2.64277 -0.221705
+I0119 16:10:01.536094 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 40.0174 -28.4104 -0.0225879
+I0119 16:10:01.536100 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.628803 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 25.4116 -2.99898 -0.225813
+I0119 16:10:01.628849 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 40.9718 -29.2063 -0.0243303
+I0119 16:10:01.628861 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.732460 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 26.1128 -3.35415 -0.233147
+I0119 16:10:01.732515 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 41.9325 -29.9999 -0.0278107
+I0119 16:10:01.732527 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.845490 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 26.8866 -3.74804 -0.236973
+I0119 16:10:01.845517 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 42.9944 -30.8718 -0.0303241
+I0119 16:10:01.845521 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:01.935726 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 27.5917 -4.10714 -0.230041
+I0119 16:10:01.935752 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 43.9618 -31.666 -0.0267801
+I0119 16:10:01.935756 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.040002 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 28.297 -4.46562 -0.217647
+I0119 16:10:02.040040 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 44.9302 -32.4614 -0.0160426
+I0119 16:10:02.040050 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.156809 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 29.0706 -4.86184 -0.20771
+I0119 16:10:02.156843 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 45.9937 -33.3356 -0.00407108
+I0119 16:10:02.156849 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.245262 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 29.7735 -5.22364 -0.19826
+I0119 16:10:02.245291 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 46.9604 -34.1308 0.00582729
+I0119 16:10:02.245294 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.345551 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 30.4745 -5.586 -0.18637
+I0119 16:10:02.345630 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 47.9248 -34.9238 0.0151684
+I0119 16:10:02.345640 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.459654 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 31.246 -5.98088 -0.178439
+I0119 16:10:02.459700 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 48.9866 -35.7965 0.0246335
+I0119 16:10:02.459712 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.559144 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 31.9451 -6.33864 -0.17224
+I0119 16:10:02.559197 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 49.9482 -36.5865 0.0320005
+I0119 16:10:02.559211 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.679149 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 32.7152 -6.73118 -0.163677
+I0119 16:10:02.679198 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 51.006 -37.4554 0.0404208
+I0119 16:10:02.679209 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.769560 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 33.4125 -7.09025 -0.15432
+I0119 16:10:02.769618 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 51.9652 -38.2449 0.0489771
+I0119 16:10:02.769635 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.868265 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 34.1097 -7.45103 -0.142712
+I0119 16:10:02.868311 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 52.9227 -39.0368 0.0585223
+I0119 16:10:02.868324 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:02.979775 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 34.8739 -7.85396 -0.131844
+I0119 16:10:02.979835 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 53.9736 -39.911 0.0694392
+I0119 16:10:02.979847 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.076974 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 35.5619 -8.22435 -0.12512
+I0119 16:10:03.077005 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 54.9221 -40.7066 0.0777926
+I0119 16:10:03.077010 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.177386 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 36.2445 -8.59774 -0.121233
+I0119 16:10:03.177428 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 55.8664 -41.507 0.0837205
+I0119 16:10:03.177438 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.298071 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 36.989 -9.01721 -0.116897
+I0119 16:10:03.298112 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 56.8974 -42.3914 0.0880912
+I0119 16:10:03.298121 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.386565 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 37.6588 -9.40213 -0.110042
+I0119 16:10:03.386600 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 57.8286 -43.2011 0.0924511
+I0119 16:10:03.386608 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.508845 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 38.3883 -9.82999 -0.102349
+I0119 16:10:03.508885 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 58.8471 -44.0989 0.100192
+I0119 16:10:03.508895 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.596619 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 39.0446 -10.2266 -0.0993706
+I0119 16:10:03.596647 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 59.7625 -44.9171 0.106231
+I0119 16:10:03.596652 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.700165 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 39.6932 -10.629 -0.0969034
+I0119 16:10:03.700251 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 60.6721 -45.7424 0.111083
+I0119 16:10:03.700261 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.815434 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 40.3973 -11.0747 -0.0938339
+I0119 16:10:03.815454 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 61.6636 -46.6552 0.116278
+I0119 16:10:03.815459 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:03.905845 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 41.0293 -11.4852 -0.0921831
+I0119 16:10:03.905869 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 62.5558 -47.4891 0.120788
+I0119 16:10:03.905874 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.007045 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 41.6515 -11.8985 -0.0904636
+I0119 16:10:04.007076 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 63.4402 -48.3274 0.124498
+I0119 16:10:04.007081 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.128419 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 42.3235 -12.3558 -0.0870738
+I0119 16:10:04.128463 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 64.401 -49.253 0.129578
+I0119 16:10:04.128471 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.217732 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 42.9231 -12.7751 -0.0821958
+I0119 16:10:04.217778 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 65.2641 -50.097 0.135663
+I0119 16:10:04.217789 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.337486 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 43.5734 -13.2356 -0.0778982
+I0119 16:10:04.337531 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 66.2019 -51.0264 0.143346
+I0119 16:10:04.337541 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.427655 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 44.1525 -13.6575 -0.0720666
+I0119 16:10:04.427708 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 67.0436 -51.8732 0.150612
+I0119 16:10:04.427719 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.529088 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 44.7223 -14.08 -0.0653042
+I0119 16:10:04.529148 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 67.8757 -52.7217 0.158401
+I0119 16:10:04.529160 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.647042 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 45.3362 -14.5432 -0.0551625
+I0119 16:10:04.647075 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 68.7792 -53.6555 0.167846
+I0119 16:10:04.647082 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.738222 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 45.887 -14.9635 -0.0496971
+I0119 16:10:04.738276 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 69.5889 -54.503 0.176717
+I0119 16:10:04.738286 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.836066 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 46.4285 -15.3784 -0.0462764
+I0119 16:10:04.836091 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 70.3887 -55.3471 0.183923
+I0119 16:10:04.836097 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:04.958616 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 47.0108 -15.8266 -0.0436572
+I0119 16:10:04.958662 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 71.258 -56.2704 0.189989
+I0119 16:10:04.958674 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.046767 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 47.5287 -16.2264 -0.0426855
+I0119 16:10:05.046806 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 72.0345 -57.1 0.194009
+I0119 16:10:05.046850 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.149617 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 48.0324 -16.6178 -0.0424004
+I0119 16:10:05.149669 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 72.7993 -57.9229 0.19706
+I0119 16:10:05.149680 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.268930 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 48.5725 -17.0368 -0.0418105
+I0119 16:10:05.268977 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 73.6258 -58.8185 0.199855
+I0119 16:10:05.268987 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.358372 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 49.0504 -17.403 -0.0406936
+I0119 16:10:05.358431 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 74.3635 -59.6206 0.202615
+I0119 16:10:05.358448 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.476007 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 49.5626 -17.7887 -0.0385547
+I0119 16:10:05.476037 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 75.1613 -60.4892 0.205921
+I0119 16:10:05.476042 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.569427 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 50.0128 -18.1232 -0.0352023
+I0119 16:10:05.569479 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 75.8697 -61.2607 0.210008
+I0119 16:10:05.569494 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.665669 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 50.4505 -18.4416 -0.030835
+I0119 16:10:05.665697 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 76.5657 -62.0174 0.215429
+I0119 16:10:05.665702 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.785413 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 50.9214 -18.7698 -0.0277726
+I0119 16:10:05.785437 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 77.3172 -62.8306 0.220797
+I0119 16:10:05.785444 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.875893 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 51.3485 -19.0527 -0.0222761
+I0119 16:10:05.875919 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 77.991 -63.5542 0.224637
+I0119 16:10:05.875926 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:05.976982 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 51.7752 -19.3241 -0.0172373
+I0119 16:10:05.977015 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 78.6629 -64.266 0.227879
+I0119 16:10:05.977020 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.094961 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 52.244 -19.6106 -0.0121608
+I0119 16:10:06.094987 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 79.4002 -65.0306 0.232423
+I0119 16:10:06.094990 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.186345 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 52.6738 -19.857 -0.00558097
+I0119 16:10:06.186379 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 80.0734 -65.7139 0.237171
+I0119 16:10:06.186385 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.287113 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 53.1054 -20.0884 0.00335638
+I0119 16:10:06.287163 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 80.749 -66.3825 0.243328
+I0119 16:10:06.287174 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.408264 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 53.5846 -20.322 0.0152001
+I0119 16:10:06.408308 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 81.4952 -67.098 0.252126
+I0119 16:10:06.408315 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.496449 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 54.0236 -20.5118 0.0264949
+I0119 16:10:06.496496 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 82.1786 -67.729 0.261606
+I0119 16:10:06.496502 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.594878 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 54.4676 -20.6846 0.0367598
+I0119 16:10:06.594900 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 82.8626 -68.3359 0.270312
+I0119 16:10:06.594903 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.715334 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 54.958 -20.8427 0.0475354
+I0119 16:10:06.715364 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 83.6191 -68.9786 0.276496
+I0119 16:10:06.715369 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.805270 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 55.4011 -20.9626 0.0510331
+I0119 16:10:06.805294 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 84.3079 -69.5382 0.27907
+I0119 16:10:06.805300 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:06.907604 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 55.843 -21.0602 0.0542485
+I0119 16:10:06.907653 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 84.9959 -70.0754 0.279911
+I0119 16:10:06.907662 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.026755 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 56.3257 -21.137 0.0551595
+I0119 16:10:07.026791 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 85.751 -70.6388 0.27965
+I0119 16:10:07.026801 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.117074 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 56.7625 -21.1754 0.0556209
+I0119 16:10:07.117121 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 86.4334 -71.12 0.278219
+I0119 16:10:07.117133 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.235323 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 57.2395 -21.1823 0.0541518
+I0119 16:10:07.235349 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 87.1822 -71.6152 0.275356
+I0119 16:10:07.235355 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.325237 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 57.6693 -21.1555 0.0541404
+I0119 16:10:07.325258 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 87.8589 -72.0327 0.272615
+I0119 16:10:07.325260 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.426616 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 58.095 -21.1017 0.0571198
+I0119 16:10:07.426637 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 88.5302 -72.4218 0.271829
+I0119 16:10:07.426640 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.546101 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 58.5566 -21.0127 0.0661872
+I0119 16:10:07.546137 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 89.2623 -72.8198 0.275526
+I0119 16:10:07.546147 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.636888 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 58.9663 -20.9015 0.0792759
+I0119 16:10:07.636925 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 89.9196 -73.1524 0.283682
+I0119 16:10:07.636935 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.735651 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 59.3661 -20.7618 0.0952791
+I0119 16:10:07.735678 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 90.5689 -73.4568 0.293549
+I0119 16:10:07.735685 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.855332 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 59.7955 -20.5745 0.109756
+I0119 16:10:07.855377 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 91.2731 -73.7599 0.304019
+I0119 16:10:07.855384 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:07.945521 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 60.178 -20.3769 0.119969
+I0119 16:10:07.945549 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 91.9036 -74.0069 0.311623
+I0119 16:10:07.945554 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.046263 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 60.5512 -20.1529 0.130075
+I0119 16:10:08.046286 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 92.5235 -74.2275 0.319483
+I0119 16:10:08.046290 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.165321 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 60.9495 -19.8801 0.134688
+I0119 16:10:08.165344 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 93.1926 -74.4416 0.325219
+I0119 16:10:08.165349 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.254739 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 61.304 -19.6008 0.130558
+I0119 16:10:08.254761 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 93.7905 -74.6109 0.327219
+I0119 16:10:08.254765 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.375622 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 61.6835 -19.2788 0.118097
+I0119 16:10:08.375648 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 94.4366 -74.7726 0.320795
+I0119 16:10:08.375654 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.466219 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 62.0277 -18.9719 0.107268
+I0119 16:10:08.466253 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 95.0196 -74.9048 0.311149
+I0119 16:10:08.466260 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.567940 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 62.3686 -18.6564 0.102703
+I0119 16:10:08.567981 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 95.5984 -75.0236 0.303656
+I0119 16:10:08.567991 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.686713 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 62.7404 -18.2951 0.102632
+I0119 16:10:08.686749 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 96.2314 -75.1377 0.300346
+I0119 16:10:08.686758 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.777006 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 63.0791 -17.951 0.0938254
+I0119 16:10:08.777034 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 96.8033 -75.227 0.296744
+I0119 16:10:08.777040 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.898444 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 63.4553 -17.5577 0.077679
+I0119 16:10:08.898490 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 97.43 -75.3102 0.287075
+I0119 16:10:08.898500 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:08.985787 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 63.8004 -17.1886 0.0680711
+I0119 16:10:08.985819 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 98.0019 -75.3734 0.27614
+I0119 16:10:08.985826 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.105365 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 64.1875 -16.7724 0.0605381
+I0119 16:10:09.105392 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 98.6324 -75.4308 0.264169
+I0119 16:10:09.105398 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.194519 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 64.5475 -16.3887 0.0604363
+I0119 16:10:09.194538 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 99.2135 -75.4752 0.258203
+I0119 16:10:09.194566 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.296424 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 64.9161 -15.9975 0.0583202
+I0119 16:10:09.296448 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 99.8041 -75.5127 0.255345
+I0119 16:10:09.296455 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.414454 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 65.3334 -15.5589 0.0482234
+I0119 16:10:09.414480 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 100.464 -75.5452 0.246953
+I0119 16:10:09.414484 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.505368 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 65.7198 -15.1527 0.0410106
+I0119 16:10:09.505388 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 101.074 -75.5672 0.236577
+I0119 16:10:09.505393 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.604910 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 66.1146 -14.7351 0.0428462
+I0119 16:10:09.604929 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 101.689 -75.5795 0.231461
+I0119 16:10:09.604933 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.724478 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 66.5566 -14.266 0.0499228
+I0119 16:10:09.724500 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 102.376 -75.5805 0.233205
+I0119 16:10:09.724503 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.814453 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 66.9754 -13.8382 0.0585787
+I0119 16:10:09.814477 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 103.011 -75.5756 0.238215
+I0119 16:10:09.814481 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:09.935087 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 67.4482 -13.3642 0.0681191
+I0119 16:10:09.935111 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 103.726 -75.5676 0.245757
+I0119 16:10:09.935117 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.024998 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 67.8873 -12.9247 0.073166
+I0119 16:10:10.025020 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 104.387 -75.5539 0.250959
+I0119 16:10:10.025024 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.125669 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 68.3332 -12.4792 0.0711328
+I0119 16:10:10.125699 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 105.054 -75.5325 0.251421
+I0119 16:10:10.125705 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.244704 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 68.835 -11.9866 0.065536
+I0119 16:10:10.244724 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 105.798 -75.5044 0.245727
+I0119 16:10:10.244727 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.337566 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 69.297 -11.5307 0.0577346
+I0119 16:10:10.337610 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 106.483 -75.4733 0.23832
+I0119 16:10:10.337621 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.436056 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 69.7632 -11.0648 0.0480944
+I0119 16:10:10.436085 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 107.173 -75.433 0.227556
+I0119 16:10:10.436090 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.557982 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 70.2873 -10.5425 0.0407348
+I0119 16:10:10.558040 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 107.939 -75.3773 0.216417
+I0119 16:10:10.558053 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.647857 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 70.7721 -10.0585 0.0443466
+I0119 16:10:10.647920 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 108.644 -75.3178 0.212194
+I0119 16:10:10.647938 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.765533 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 71.3154 -9.51523 0.0571435
+I0119 16:10:10.765566 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 109.429 -75.2412 0.217492
+I0119 16:10:10.765573 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.855505 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 71.8148 -9.01303 0.0675146
+I0119 16:10:10.855530 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 110.15 -75.1624 0.227008
+I0119 16:10:10.855535 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:10.955539 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 72.3163 -8.49982 0.0656939
+I0119 16:10:10.955566 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 110.875 -75.0739 0.229305
+I0119 16:10:10.955574 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.078199 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 72.872 -7.92527 0.0561058
+I0119 16:10:11.078238 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 111.675 -74.9648 0.222633
+I0119 16:10:11.078248 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.165640 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 73.3873 -7.39859 0.0472962
+I0119 16:10:11.165670 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 112.408 -74.8581 0.211691
+I0119 16:10:11.165675 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.269083 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 73.9085 -6.86258 0.0433006
+I0119 16:10:11.269136 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 113.149 -74.7445 0.202464
+I0119 16:10:11.269152 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.384229 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 74.4894 -6.26204 0.0478111
+I0119 16:10:11.384249 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 113.971 -74.6083 0.199647
+I0119 16:10:11.384253 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.474848 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 75.0231 -5.708 0.0551219
+I0119 16:10:11.474866 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 114.726 -74.4756 0.202016
+I0119 16:10:11.474869 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.574065 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 75.5608 -5.14522 0.0626082
+I0119 16:10:11.574097 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 115.481 -74.3344 0.206977
+I0119 16:10:11.574105 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.685606 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 76.1644 -4.50702 0.0657829
+I0119 16:10:11.685626 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 116.319 -74.1694 0.210051
+I0119 16:10:11.685628 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.784184 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 76.716 -3.92553 0.0671958
+I0119 16:10:11.784204 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 117.085 -74.0136 0.209449
+I0119 16:10:11.784206 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.907698 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 77.326 -3.27781 0.0688978
+I0119 16:10:11.907742 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 117.931 -73.8358 0.20921
+I0119 16:10:11.907755 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:11.997205 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 77.8789 -2.6839 0.0661905
+I0119 16:10:11.997315 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 118.702 -73.6673 0.206167
+I0119 16:10:11.997329 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.094960 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 78.436 -2.08583 0.0615605
+I0119 16:10:12.094982 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 119.472 -73.493 0.199525
+I0119 16:10:12.094987 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.213927 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 79.0517 -1.42685 0.056472
+I0119 16:10:12.213945 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 120.324 -73.2977 0.191468
+I0119 16:10:12.213949 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.304833 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 79.614 -0.820037 0.0580215
+I0119 16:10:12.304849 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 121.102 -73.1145 0.186793
+I0119 16:10:12.304852 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.404362 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 80.1801 -0.213718 0.064385
+I0119 16:10:12.404382 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 121.882 -72.9269 0.187864
+I0119 16:10:12.404385 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.524278 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 80.811 0.449842 0.0668642
+I0119 16:10:12.524299 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 122.747 -72.7218 0.189148
+I0119 16:10:12.524303 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.614225 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 81.387 1.05635 0.0624699
+I0119 16:10:12.614244 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 123.537 -72.5367 0.186514
+I0119 16:10:12.614248 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.734261 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 82.0319 1.73172 0.0556103
+I0119 16:10:12.734278 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 124.411 -72.3366 0.186601
+I0119 16:10:12.734282 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.824748 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 82.6179 2.33821 0.0541454
+I0119 16:10:12.824769 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 125.209 -72.1583 0.18996
+I0119 16:10:12.824774 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:12.924575 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 83.2003 2.94571 0.0541605
+I0119 16:10:12.924594 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 126.008 -71.9807 0.194958
+I0119 16:10:12.924597 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.045449 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 83.8397 3.61684 0.0514586
+I0119 16:10:13.045480 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 126.884 -71.7827 0.198819
+I0119 16:10:13.045488 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.135023 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 84.4194 4.22495 0.0515879
+I0119 16:10:13.135049 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 127.677 -71.6007 0.20054
+I0119 16:10:13.135056 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.235226 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 84.9998 4.82708 0.0562032
+I0119 16:10:13.235255 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 128.471 -71.4197 0.205362
+I0119 16:10:13.235261 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.354360 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 85.6344 5.47202 0.0586051
+I0119 16:10:13.354379 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 129.343 -71.2234 0.205039
+I0119 16:10:13.354401 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.444762 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 86.2141 6.0482 0.0573074
+I0119 16:10:13.444784 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 130.133 -71.0512 0.197188
+I0119 16:10:13.444789 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.542909 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 86.795 6.62203 0.0596412
+I0119 16:10:13.542927 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 130.924 -70.8864 0.189131
+I0119 16:10:13.542932 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.655339 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 87.4336 7.25973 0.078156
+I0119 16:10:13.655364 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 131.796 -70.7024 0.190684
+I0119 16:10:13.655369 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.756893 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 88.0124 7.84341 0.109924
+I0119 16:10:13.756943 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 132.588 -70.531 0.207612
+I0119 16:10:13.756955 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.865074 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 88.6473 8.48252 0.139257
+I0119 16:10:13.865093 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 133.459 -70.3432 0.235129
+I0119 16:10:13.865097 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:13.965001 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 89.2161 9.05539 0.124073
+I0119 16:10:13.965023 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 134.243 -70.1738 0.240011
+I0119 16:10:13.965026 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.064687 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 89.7819 9.62395 0.0913344
+I0119 16:10:14.064707 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 135.018 -70.007 0.21994
+I0119 16:10:14.064710 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.183964 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 90.4051 10.247 0.0664681
+I0119 16:10:14.183991 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 135.868 -69.8251 0.192502
+I0119 16:10:14.183995 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.274533 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 90.9725 10.8132 0.0685495
+I0119 16:10:14.274551 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 136.642 -69.6615 0.183083
+I0119 16:10:14.274554 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.374378 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 91.5296 11.3877 0.0717907
+I0119 16:10:14.374397 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 137.417 -69.4994 0.190368
+I0119 16:10:14.374400 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.494087 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 92.1359 12.0178 0.0588261
+I0119 16:10:14.494107 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 138.265 -69.3195 0.194826
+I0119 16:10:14.494110 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.584149 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 92.6828 12.5843 0.0423376
+I0119 16:10:14.584175 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 139.029 -69.1581 0.195067
+I0119 16:10:14.584179 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.703912 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 93.2767 13.2153 0.0377806
+I0119 16:10:14.703930 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 139.864 -68.9782 0.199197
+I0119 16:10:14.703933 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.794054 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 93.8158 13.7909 0.0271819
+I0119 16:10:14.794072 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 140.616 -68.8101 0.201795
+I0119 16:10:14.794076 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:14.894457 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 94.3555 14.3659 0.0280424
+I0119 16:10:14.894480 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 141.366 -68.6422 0.205115
+I0119 16:10:14.894486 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.014451 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 94.9493 14.9964 0.0315417
+I0119 16:10:15.014494 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 142.19 -68.4598 0.213901
+I0119 16:10:15.014497 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.105616 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 95.4857 15.5678 0.0311356
+I0119 16:10:15.105650 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 142.938 -68.2958 0.221198
+I0119 16:10:15.105660 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.204437 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 96.0193 16.1424 0.0267087
+I0119 16:10:15.204457 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 143.683 -68.1343 0.224184
+I0119 16:10:15.204461 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.323899 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 96.6021 16.7667 0.0195649
+I0119 16:10:15.323923 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 144.501 -67.9595 0.225919
+I0119 16:10:15.323927 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.414799 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 97.1295 17.3444 0.0186703
+I0119 16:10:15.414834 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 145.243 -67.8018 0.225831
+I0119 16:10:15.414840 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.516433 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 97.6504 17.9288 0.0254051
+I0119 16:10:15.516471 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 145.981 -67.6406 0.2296
+I0119 16:10:15.516479 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.633510 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 98.219 18.5727 0.0377161
+I0119 16:10:15.633530 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 146.783 -67.4582 0.239615
+I0119 16:10:15.633533 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.723991 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 98.7255 19.1661 0.0403844
+I0119 16:10:15.724040 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 147.51 -67.2887 0.248332
+I0119 16:10:15.724045 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.844139 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 99.2776 19.8196 0.0330954
+I0119 16:10:15.844163 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 148.304 -67.0979 0.249496
+I0119 16:10:15.844166 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:15.933975 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 99.7741 20.4154 0.0184831
+I0119 16:10:15.934001 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 149.019 -66.9217 0.241513
+I0119 16:10:15.934006 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.036020 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 100.275 21.0066 -0.0010655
+I0119 16:10:16.036051 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 149.734 -66.7467 0.227115
+I0119 16:10:16.036057 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.156184 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 100.824 21.6647 -0.0188223
+I0119 16:10:16.156284 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 150.519 -66.552 0.208224
+I0119 16:10:16.156299 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.244207 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 101.322 22.271 -0.0205794
+I0119 16:10:16.244235 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 151.232 -66.3664 0.19817
+I0119 16:10:16.244238 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.344960 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 101.817 22.8854 -0.0153557
+I0119 16:10:16.344993 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 151.942 -66.1728 0.19863
+I0119 16:10:16.344998 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.464453 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 102.352 23.5654 -0.0188991
+I0119 16:10:16.464478 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 152.714 -65.9494 0.199919
+I0119 16:10:16.464484 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.554261 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 102.84 24.1799 -0.0281179
+I0119 16:10:16.554286 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 153.414 -65.743 0.195362
+I0119 16:10:16.554291 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.652803 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 103.322 24.7997 -0.0371308
+I0119 16:10:16.652828 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 154.113 -65.5331 0.190192
+I0119 16:10:16.652832 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.764719 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 103.85 25.4908 -0.0395758
+I0119 16:10:16.764750 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 154.877 -65.2943 0.189758
+I0119 16:10:16.764757 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.865844 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 104.316 26.1298 -0.0391206
+I0119 16:10:16.865868 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 155.567 -65.0691 0.19586
+I0119 16:10:16.865875 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:16.984107 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 104.827 26.841 -0.0361565
+I0119 16:10:16.984131 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 156.319 -64.8134 0.203864
+I0119 16:10:16.984136 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.074455 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 105.284 27.4849 -0.0364796
+I0119 16:10:17.074482 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 156.998 -64.5788 0.204651
+I0119 16:10:17.074488 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.175698 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 105.741 28.1319 -0.0409684
+I0119 16:10:17.175724 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 157.674 -64.3414 0.202381
+I0119 16:10:17.175729 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.294174 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 106.238 28.8499 -0.0469689
+I0119 16:10:17.294199 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 158.412 -64.0766 0.195496
+I0119 16:10:17.294205 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.383541 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 106.685 29.5049 -0.0567755
+I0119 16:10:17.383563 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 159.079 -63.8338 0.186137
+I0119 16:10:17.383565 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.485324 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 107.124 30.1643 -0.0695423
+I0119 16:10:17.485344 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 159.74 -63.5881 0.174986
+I0119 16:10:17.485364 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.604223 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 107.604 30.8911 -0.0819134
+I0119 16:10:17.604241 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 160.46 -63.3158 0.163478
+I0119 16:10:17.604245 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.695545 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 108.048 31.5577 -0.0849683
+I0119 16:10:17.695580 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 161.117 -63.0668 0.161043
+I0119 16:10:17.695590 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.804699 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 108.53 32.2966 -0.0871546
+I0119 16:10:17.804718 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 161.837 -62.7893 0.163641
+I0119 16:10:17.804721 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:17.905047 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 108.969 32.9651 -0.0887448
+I0119 16:10:17.905068 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 162.489 -62.5349 0.168039
+I0119 16:10:17.905072 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.004287 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 109.405 33.6293 -0.102702
+I0119 16:10:18.004309 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 163.14 -62.2839 0.165847
+I0119 16:10:18.004314 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.123389 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 109.885 34.3559 -0.123382
+I0119 16:10:18.123407 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 163.854 -62.0113 0.152106
+I0119 16:10:18.123410 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.213923 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 110.318 35.02 -0.147403
+I0119 16:10:18.213943 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 164.503 -61.7638 0.134443
+I0119 16:10:18.213946 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.315229 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 110.74 35.6927 -0.160758
+I0119 16:10:18.315248 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 165.144 -61.5097 0.120526
+I0119 16:10:18.315250 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.434846 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 111.205 36.4388 -0.166103
+I0119 16:10:18.434882 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 165.844 -61.2214 0.120149
+I0119 16:10:18.434890 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.525292 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 111.629 37.1196 -0.171951
+I0119 16:10:18.525323 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 166.483 -60.9555 0.121771
+I0119 16:10:18.525331 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.624951 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 112.05 37.8069 -0.183338
+I0119 16:10:18.625000 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 167.117 -60.6852 0.117662
+I0119 16:10:18.625013 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.733860 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 112.511 38.5696 -0.194306
+I0119 16:10:18.733886 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 167.811 -60.3818 0.110423
+I0119 16:10:18.733891 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.835886 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 112.922 39.2651 -0.209607
+I0119 16:10:18.835916 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 168.437 -60.1032 0.102659
+I0119 16:10:18.835924 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:18.945040 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 113.371 40.0288 -0.2326
+I0119 16:10:18.945073 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 169.121 -59.793 0.0882608
+I0119 16:10:18.945083 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.044725 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 113.782 40.7239 -0.243796
+I0119 16:10:19.044747 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 169.744 -59.5102 0.0741235
+I0119 16:10:19.044751 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.143700 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 114.183 41.4304 -0.244311
+I0119 16:10:19.143721 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 170.362 -59.2213 0.0696867
+I0119 16:10:19.143725 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.264570 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 114.613 42.2198 -0.241356
+I0119 16:10:19.264600 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 171.03 -58.8914 0.0733576
+I0119 16:10:19.264608 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.353960 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 115.001 42.9388 -0.240803
+I0119 16:10:19.353977 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 171.63 -58.5848 0.0781603
+I0119 16:10:19.353981 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.455884 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 115.387 43.6575 -0.256372
+I0119 16:10:19.455919 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 172.23 -58.277 0.0736285
+I0119 16:10:19.455929 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.573953 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 115.806 44.4483 -0.283866
+I0119 16:10:19.573973 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 172.884 -57.9396 0.0531691
+I0119 16:10:19.573976 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.664037 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 116.183 45.1712 -0.306606
+I0119 16:10:19.664057 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 173.474 -57.6302 0.0294862
+I0119 16:10:19.664060 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.783402 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 116.602 45.969 -0.317621
+I0119 16:10:19.783421 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 174.123 -57.2856 0.0115069
+I0119 16:10:19.783424 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.873705 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 116.993 46.6936 -0.313925
+I0119 16:10:19.873725 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 174.719 -56.972 0.00814714
+I0119 16:10:19.873729 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:19.974881 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 117.377 47.4249 -0.309551
+I0119 16:10:19.974901 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 175.319 -56.655 0.0115479
+I0119 16:10:19.974905 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.095824 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 117.796 48.2329 -0.305666
+I0119 16:10:20.095875 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 175.97 -56.3011 0.0130867
+I0119 16:10:20.095890 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.184554 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 118.181 48.9639 -0.309402
+I0119 16:10:20.184585 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 176.562 -55.9791 0.00939517
+I0119 16:10:20.184593 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.285208 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 118.563 49.6934 -0.318844
+I0119 16:10:20.285284 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 177.155 -55.6591 -0.00102844
+I0119 16:10:20.285290 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.394170 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 118.989 50.4926 -0.330615
+I0119 16:10:20.394201 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 177.808 -55.3099 -0.0176778
+I0119 16:10:20.394205 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.494987 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 119.378 51.2192 -0.3303
+I0119 16:10:20.495020 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 178.406 -54.9929 -0.0279744
+I0119 16:10:20.495026 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.614514 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 119.796 52.025 -0.321579
+I0119 16:10:20.614542 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 179.058 -54.6416 -0.0290113
+I0119 16:10:20.614548 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.704213 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 120.173 52.7595 -0.305166
+I0119 16:10:20.704247 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 179.644 -54.3173 -0.0203751
+I0119 16:10:20.704252 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.805668 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 120.545 53.487 -0.296375
+I0119 16:10:20.805694 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 180.229 -53.9929 -0.0103178
+I0119 16:10:20.805699 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:20.924185 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 120.955 54.2809 -0.300997
+I0119 16:10:20.924217 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 180.87 -53.6411 -0.00886553
+I0119 16:10:20.924226 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.014319 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 121.329 55.0014 -0.309891
+I0119 16:10:21.014345 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 181.451 -53.324 -0.0179893
+I0119 16:10:21.014351 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.114801 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 121.694 55.7266 -0.313803
+I0119 16:10:21.114830 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 182.027 -53.0073 -0.0277747
+I0119 16:10:21.114837 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.234010 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 122.098 56.521 -0.307592
+I0119 16:10:21.234040 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 182.659 -52.6596 -0.0292592
+I0119 16:10:21.234045 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.324254 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 122.464 57.24 -0.302448
+I0119 16:10:21.324282 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 183.233 -52.3461 -0.0260935
+I0119 16:10:21.324288 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.422549 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 122.829 57.9586 -0.302859
+I0119 16:10:21.422577 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 183.806 -52.0351 -0.0256597
+I0119 16:10:21.422582 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.534950 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 123.224 58.7487 -0.306551
+I0119 16:10:21.534991 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 184.432 -51.696 -0.0290907
+I0119 16:10:21.534996 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.634011 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 123.581 59.4622 -0.309334
+I0119 16:10:21.634044 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 184.999 -51.3936 -0.0325325
+I0119 16:10:21.634090 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.753055 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 123.97 60.2392 -0.320274
+I0119 16:10:21.753078 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 185.621 -51.0671 -0.0388802
+I0119 16:10:21.753082 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.843286 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 124.319 60.9432 -0.327428
+I0119 16:10:21.843312 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 186.181 -50.7749 -0.0471516
+I0119 16:10:21.843317 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:21.957146 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 124.642 61.5797 -0.334318
+I0119 16:10:21.957171 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 186.764 -50.4749 -0.0485335
+I0119 16:10:21.957175 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.051766 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 124.964 62.2162 -0.341207
+I0119 16:10:22.051788 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 187.346 -50.1784 -0.0434814
+I0119 16:10:22.051793 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.165751 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 125.287 62.8526 -0.348097
+I0119 16:10:22.165781 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 187.926 -49.8871 -0.0294455
+I0119 16:10:22.165786 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.260728 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 125.61 63.4891 -0.354986
+I0119 16:10:22.260768 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 188.505 -49.6006 -0.00652971
+I0119 16:10:22.260779 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.375408 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 125.932 64.1256 -0.361876
+I0119 16:10:22.375445 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 189.082 -49.3185 0.025161
+I0119 16:10:22.375452 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.469854 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 126.255 64.7621 -0.368766
+I0119 16:10:22.469882 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 189.658 -49.0406 0.0655205
+I0119 16:10:22.469885 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.583580 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 126.577 65.3985 -0.375656
+I0119 16:10:22.583616 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 190.232 -48.7665 0.114443
+I0119 16:10:22.583626 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.679234 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 126.9 66.035 -0.382545
+I0119 16:10:22.679282 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 190.805 -48.4961 0.17182
+I0119 16:10:22.679296 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.782915 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 127.223 66.6715 -0.389435
+I0119 16:10:22.782967 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 191.375 -48.229 0.237546
+I0119 16:10:22.782977 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.896625 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 127.545 67.308 -0.396326
+I0119 16:10:22.896661 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 191.944 -47.9651 0.311511
+I0119 16:10:22.896672 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:22.991127 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 127.868 67.9444 -0.403216
+I0119 16:10:22.991160 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 192.511 -47.7043 0.393608
+I0119 16:10:22.991168 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:23.200934 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 128.513 69.2174 -0.416996
+I0119 16:10:23.200989 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 193.075 -47.4463 0.483726
+I0119 16:10:23.201000 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:23.313618 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 128.836 69.8539 -0.423887
+I0119 16:10:23.313637 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 193.636 -47.191 0.581759
+I0119 16:10:23.313640 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:23.408118 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 129.158 70.4903 -0.430777
+I0119 16:10:23.408138 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 194.195 -46.9383 0.687596
+I0119 16:10:23.408142 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:23.522487 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 129.481 71.1268 -0.437668
+I0119 16:10:23.522511 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 194.75 -46.688 0.801124
+I0119 16:10:23.522517 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:23.602677 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 129.75 71.6215 -0.436984
+I0119 16:10:23.602702 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 195.302 -46.4403 0.922236
+I0119 16:10:23.602708 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:23.722757 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 130.089 72.2184 -0.427187
+I0119 16:10:23.722791 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 195.773 -46.2303 1.03633
+I0119 16:10:23.722795 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:23.814904 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 130.404 72.7528 -0.411627
+I0119 16:10:23.814934 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 196.352 -45.9795 1.18627
+I0119 16:10:23.814939 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:23.913412 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 130.718 73.2808 -0.403499
+I0119 16:10:23.913431 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 196.878 -45.7589 1.33
+I0119 16:10:23.913436 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.025064 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 131.066 73.8609 -0.400828
+I0119 16:10:24.025111 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 197.402 -45.5441 1.47118
+I0119 16:10:24.025121 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.127517 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 131.383 74.3879 -0.403121
+I0119 16:10:24.127558 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 197.973 -45.3119 1.6195
+I0119 16:10:24.127568 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.223466 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 131.704 74.9189 -0.408002
+I0119 16:10:24.223513 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 198.488 -45.1018 1.74771
+I0119 16:10:24.223523 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.336071 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 132.058 75.5089 -0.409626
+I0119 16:10:24.336100 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 199.001 -44.8899 1.87196
+I0119 16:10:24.336107 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.433820 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 132.38 76.053 -0.414346
+I0119 16:10:24.433846 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 199.563 -44.6558 2.01084
+I0119 16:10:24.433851 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.553944 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 132.728 76.6547 -0.428231
+I0119 16:10:24.553997 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 200.072 -44.4402 2.14074
+I0119 16:10:24.554003 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.644379 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 133.045 77.2026 -0.443633
+I0119 16:10:24.644405 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 200.623 -44.1988 2.27567
+I0119 16:10:24.644412 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.745183 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 133.368 77.7506 -0.453953
+I0119 16:10:24.745213 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 201.115 -43.977 2.39203
+I0119 16:10:24.745218 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.863354 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 133.731 78.355 -0.46214
+I0119 16:10:24.863377 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 201.606 -43.7547 2.50931
+I0119 16:10:24.863382 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:24.954023 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 134.059 78.9134 -0.463038
+I0119 16:10:24.954046 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 202.148 -43.5107 2.64237
+I0119 16:10:24.954051 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:25.056198 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 134.378 79.4799 -0.451478
+I0119 16:10:25.056241 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 202.64 -43.284 2.76908
+I0119 16:10:25.056252 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:25.174851 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 134.738 80.1066 -0.434106
+I0119 16:10:25.174891 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 203.121 -43.0498 2.90201
+I0119 16:10:25.174899 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:25.263674 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 135.068 80.6762 -0.427948
+I0119 16:10:25.263715 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 203.643 -42.7855 3.05751
+I0119 16:10:25.263720 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.
+I0119 16:10:25.362519 17844 ins_eskf_ROS_wrapper.cpp:329] kitti gps odom pos : 135.395 81.2494 -0.443305
+I0119 16:10:25.362555 17844 ins_eskf_ROS_wrapper.cpp:332] imu odom pos : 204.12 -42.5443 3.19795
+I0119 16:10:25.362563 17844 ins_eskf_ROS_wrapper.cpp:335] DEBUG imu odom and kitti gps odom published.

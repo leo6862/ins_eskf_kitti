@@ -1,0 +1,40 @@
+Log file created at: 2023/01/19 18:57:01
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 18:57:01.473521 48318 ins_eskf_node.cpp:22] INS ESKF STARTED.
+I0119 18:57:01.473668 48318 ins_eskf_ROS_wrapper.cpp:15] imu topic : /kitti/oxts/imu/extract
+I0119 18:57:01.473671 48318 ins_eskf_ROS_wrapper.cpp:16] gps topic : /kitti/oxts/gps/fix
+I0119 18:57:01.473672 48318 ins_eskf_ROS_wrapper.cpp:17] using dataset: kitti
+I0119 18:57:01.473675 48318 ins_eskf_ROS_wrapper.cpp:20] Using imu and vel in kitti for initialization.
+I0119 18:57:01.969724 48318 ins_eskf_ROS_wrapper.cpp:116] initialization completed.
+I0119 18:57:02.060829 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.00672891
+I0119 18:57:02.171516 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.125766
+I0119 18:57:02.271392 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.0985193
+I0119 18:57:02.372781 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.0662981
+I0119 18:57:02.482228 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.128524
+I0119 18:57:02.582741 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.109937
+I0119 18:57:02.683121 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.0340287
+I0119 18:57:02.793380 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.952703
+I0119 18:57:02.892366 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.486438
+I0119 18:57:03.003582 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.611372
+I0119 18:57:03.102943 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.463503
+I0119 18:57:03.200677 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.570423
+I0119 18:57:03.313951 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.536149
+I0119 18:57:03.412761 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.656151
+I0119 18:57:03.522902 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.51846
+I0119 18:57:03.623021 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.365042
+I0119 18:57:03.723909 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.922037
+I0119 18:57:03.832809 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.312535
+I0119 18:57:03.934044 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.376102
+I0119 18:57:04.043967 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.133783
+I0119 18:57:04.144611 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.106023
+I0119 18:57:04.245055 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.219115
+I0119 18:57:04.354586 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.214826
+I0119 18:57:04.454349 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.171269
+I0119 18:57:04.554819 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.0882739
+I0119 18:57:04.662901 48318 ins_eskf.cpp:139] error_state_rot_norm = 1.00518
+I0119 18:57:04.762967 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.685549
+I0119 18:57:04.862094 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.629904
+I0119 18:57:04.973704 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.667365
+I0119 18:57:05.072804 48318 ins_eskf.cpp:139] error_state_rot_norm = 1.16264
+I0119 18:57:05.173044 48318 ins_eskf.cpp:139] error_state_rot_norm = 0.359868

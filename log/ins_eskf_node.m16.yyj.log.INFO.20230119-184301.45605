@@ -1,0 +1,9 @@
+Log file created at: 2023/01/19 18:43:01
+Running on machine: m16
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0119 18:43:01.534555 45605 ins_eskf_node.cpp:22] INS ESKF STARTED.
+I0119 18:43:01.534685 45605 ins_eskf_ROS_wrapper.cpp:15] imu topic : /kitti/oxts/imu/extract
+I0119 18:43:01.534688 45605 ins_eskf_ROS_wrapper.cpp:16] gps topic : /kitti/oxts/gps/fix
+I0119 18:43:01.534689 45605 ins_eskf_ROS_wrapper.cpp:17] using dataset: kitti
+I0119 18:43:01.534691 45605 ins_eskf_ROS_wrapper.cpp:20] Using imu and vel in kitti for initialization.
+I0119 18:43:01.914849 45605 ins_eskf_ROS_wrapper.cpp:116] initialization completed.
