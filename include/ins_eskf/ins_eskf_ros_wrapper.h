@@ -33,7 +33,7 @@ private:
     sensor_msgs::NavSatFix gps_data_2_msg(Ins_eskf::GPS_data& _gps_data);
 
     nav_msgs::Odometry state_to_odom_msg(Ins_eskf::State _state,double _stamp);
-    void DEBUG_visualize_imu_propagation_res_and_kitti_gps_magnetormeter();
+    void visualize_res_and_kitti_gps_magnetormeter();
     void DEBUG_check_synce_measure();
 private:
     ros::NodeHandle nh;
@@ -59,7 +59,6 @@ private:
     double initialization_stamp = -1;
 
 
-    //TODO 用于Debug的GeographicLib::LocalCartesian 
     GeographicLib::LocalCartesian geo_converter_;
     nav_msgs::Odometry kitti_gps_odom_msg_;
     ros::Publisher pub_imu_odometrty_;

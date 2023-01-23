@@ -1,0 +1,54 @@
+<mxfile host="65bd71144e">
+    <diagram id="y6K8wHduIHCxJ7qnQEHr" name="第 1 页">
+        <mxGraphModel dx="2300" dy="948" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="768.4371423721313" y="246" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="444" y="489.9857711791992" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;INS_ESKF_ROS_WRAPPER&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;NOTE:&amp;nbsp; &amp;nbsp; &amp;nbsp;Doing Initialization in ros wrapper.&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="279" y="113" width="330" height="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="276" y="235" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ROS topic&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="8" y="104" width="125" height="266" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontSize=24;entryX=1.003;entryY=0.789;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="619.7743005752563" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="700" y="323"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;INS_ESKF&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;fusing the gps &amp;amp; imu data here&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="772" y="124" width="324" height="268" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;&quot;&gt;gps imu data&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="632" y="172" width="113" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;&quot;&gt;fusion output&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="632" y="327" width="113" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;RVIZ&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;visialize the fusion result.and compare with the base line .&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="279" y="496" width="351" height="268" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;&quot;&gt;fusion output&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="451" y="408" width="113" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

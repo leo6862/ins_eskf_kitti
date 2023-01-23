@@ -1,4 +1,0 @@
-Log file created at: 2023/01/19 19:07:26
-Running on machine: m16
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-F0119 19:07:26.720273 49008 ins_eskf.cpp:87] Check failed: !_measure.imu_buf.empty() No IMU Data in coming measure.

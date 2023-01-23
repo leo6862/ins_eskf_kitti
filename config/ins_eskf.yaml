@@ -1,39 +1,34 @@
 
-#使用不同的数据集 kf的初始化方式是不一样的
+#using dataset name,heres the only alternative: kitti 
 dataset: kitti
 
 imu_topic: /kitti/oxts/imu/extract
 gps_topic: /kitti/oxts/gps/fix
 
-#只有在dataset == kitti的时候才有效
+#only works when using kitti dataset 
 kitti/vel_topic: /kitti/oxts/gps/vel
 
-#p v q bg ba g 的顺序， 共18个量
-#! 这是一个超参数  需要在调试调试
+#In p v q bg ba g order 
 init_state_std: [
  0.001,0.001,0.001,
  0.001,0.001,0.001,
- 0.005,0.005,0.005,
+ 0.00005,0.00005,0.00005,
  0.001,0.001,0.001,
  0.001,0.001,0.001,
  0.001,0.001,0.001
 ]
 
+Q_gao_xiang/noise_a: 0.001   
+Q_gao_xiang/noise_g: 0.00003
+Q_gao_xiang/noise_ba: 0.001
+Q_gao_xiang/noise_bg: 0.00001
 
 
 
-#高翔知乎中写的Q阵的计算方式  与imu数据与delta_t都没有关系
-Q_gao_xiang/Q_v: 0.0001
-Q_gao_xiang/Q_q: 0.0001
-Q_gao_xiang/Q_bg: 0.0001
-Q_gao_xiang/Q_ba: 0.0001
-
-
-
-#GPS 观测的噪声
-v_x: 0.003
-v_y: 0.003
-v_z: 0.003
+#GPS observation noise 
+v_x: 0.0001
+v_y: 0.0001
+v_z: 0.001
 
 
 

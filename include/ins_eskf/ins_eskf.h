@@ -68,15 +68,10 @@ private:
 
     Eigen::Matrix<float,18,18> state_std; //当前状态的方差阵
 
-
-
-
-    //variabels for Q matrix (Gao Xiang edition)
-    bool use_gao_xiang_q_matrix = true;
-    float Q_v = -1; //这个-1是一个标志位  判断是否已经通过YAML::Node给Q中的元素赋值
-    float Q_q;
-    float Q_bg;
-    float Q_ba;
+    float noise_a = -1; //这个-1是一个标志位  判断是否已经通过YAML::Node给Q中的元素赋值
+    float noise_g;
+    float noise_ba;
+    float noise_bg;
 
     //variables for V .Observation noise 
     float v_x;

@@ -1,6 +1,6 @@
 <launch>
 
 <node pkg = "ins_eskf" type = "ins_eskf_node" name="ins_eskf_node"/>
-<node pkg="rosbag" type="play" name="bag_play_node" args="-s 40 /home/yyj/bag_file/zhihu/kitti_lidar_only_2011_10_03_drive_0027_synced.bag"/>
+<node pkg="rosbag" type="play" name="bag_play_node" args="-s 20 /home/yyj/bag_file/zhihu/ins_eskf_kitti.bag"/>
 <node pkg = "rviz" type="rviz" name="rviz_node" args = "-d $(find ins_eskf)/rviz/ins_eskf.rviz"/>
 </launch>

@@ -6,7 +6,6 @@ namespace ins_eskf{
 Ins_eskf_ROS_Wrapper::Ins_eskf_ROS_Wrapper(ros::NodeHandle &_nh,YAML::Node& _node){
     nh = _nh;
 
-    //TODO YAML
     imu_topic = _node["imu_topic"].as<std::string>();
     gps_topic = _node["gps_topic"].as<std::string>();
     dataset   = _node["dataset"  ].as<std::string>();
@@ -43,11 +42,7 @@ void Ins_eskf_ROS_Wrapper::register_sub_pub(){
 }
 
 void Ins_eskf_ROS_Wrapper::DEBUG_check_synce_measure(){
-/*
-    !  DEBUG
-    1. 在此处测试一下打包的measure 中的imu队列以及gps的时间戳
-    2. 以及剩余的imu_buf gps_buf中的数据的情况
-*/
+
     LOG(INFO) << std::setprecision(14) << "measure.imu_buf.size() = " << measure.imu_buf.size();
     for(int i = 0;i < measure.imu_buf.size();i++){
         LOG(INFO) << std::setprecision(14) << "No. " << i << " imu data stamp = " << measure.imu_buf[i].stamp; 
@@ -62,10 +57,7 @@ void Ins_eskf_ROS_Wrapper::gps_cb(const sensor_msgs::NavSatFixConstPtr& gps_in){
 
     mtx.lock();
     sensor_msgs::NavSatFix gps_data_ros(*gps_in);
-    // if(!initialized){
-    //     gps_buf.push_back(gps_data_ros);
-        
-    // }
+
     gps_buf.push_back(gps_data_ros);
     mtx.unlock();
 
@@ -74,21 +66,10 @@ void Ins_eskf_ROS_Wrapper::gps_cb(const sensor_msgs::NavSatFixConstPtr& gps_in){
     if(synce_measure()){
         p_ins_eskf->recieve_measure(measure);
 
-        //! 主要用于将纯imu惯性解算的结果进行可视化的验证  与kittti数据集中的GPS+磁力计的结果进行比较
-        DEBUG_visualize_imu_propagation_res_and_kitti_gps_magnetormeter();
+        // 主要用于将组合导航的结果进行可视化的验证  与kittti数据集中的GPS+九轴IMU姿态的组合在一起的结果进行比较
+        visualize_res_and_kitti_gps_magnetormeter();
     }
 
-
-    // DEBUG_check_synce_measure();
-
-    // Ins_eskf::GPS_data gps_data;
-    // gps_data.stamp = gps_in->header.stamp.toSec();
-    // gps_data.lla << gps_in->latitude , gps_in->longitude,gps_in->altitude;
-
-    // LOG(INFO) << "DEBUG current gps_buf.size() = " << gps_buf.size();
-    // LOG(INFO) << "DEBUG current imu_buf.size() = " << imu_buf.size();
-    // LOG(INFO) << "gps msg recieved";
-    // p_ins_eskf->recieve_gps(gps_data);
 }
 
 void Ins_eskf_ROS_Wrapper::imu_cb(const sensor_msgs::ImuConstPtr& imu_in){
@@ -148,7 +129,6 @@ void Ins_eskf_ROS_Wrapper::kitti_vel_cb(const geometry_msgs::TwistStampedConstPt
 
 void Ins_eskf_ROS_Wrapper::initialization_kitti(){
     /*
-    !kitti中vel与fix已经做了时间同步 
     使用init容器中的数据对   init_state进行初始化
     速度的值直接使用vel的值
     位置直接设为原点
@@ -193,17 +173,6 @@ void Ins_eskf_ROS_Wrapper::initialization_kitti(){
 
     initialization_stamp = gps_data_stamp;
 
-    //TODO print the init_state 
-    // LOG(INFO) << "front_propotion = " << front_propotion;
-    // LOG(INFO) << "init_state.p = " << init_state.p;
-    // LOG(INFO) << "init_state.v = " << init_state.v;
-    // LOG(INFO) << "init_state.q = " << init_state.q.w() << " " << init_state.q.x() << " " << init_state.q.y() << " " << init_state.q.z();
-    // LOG(INFO) << "init_state.ba = " << init_state.ba; 
-    // LOG(INFO) << "init_state.bg = " << init_state.bg; 
-    // LOG(INFO) << "init_state.g = " << init_state.g;
-
-
-
 }
 
 
@@ -213,13 +182,6 @@ bool Ins_eskf_ROS_Wrapper::synce_measure(){
     1.如果最新的imu数据时间戳仍然早于gps数据的时间戳，则继续等待
     2.当前的imu数据已经覆盖了最老的gps数据的时间，将该帧GPS数据以及该帧GPS之前的所有IMU数据一起打包
     */
-
-
-    //! 这个地方可以不用上mtx的锁了   因为其余的会操作imu_bug 以及gps_buf的地方都已经上锁了
-    //! 所以这个地方不上锁问题也不大
-    
-
-
     
     if(!initialized) return false;
 
@@ -232,8 +194,6 @@ bool Ins_eskf_ROS_Wrapper::synce_measure(){
         return false;
     }
 
-
-    //TODO 在此处记录一下kitti_gps_odometry
     double kitti_gps_oodm_x,kitti_gps_oodm_y,kitti_gps_oodm_z;
     geo_converter_.Forward(gps_buf.back().latitude,gps_buf.back().longitude,gps_buf.back().altitude,kitti_gps_oodm_x,kitti_gps_oodm_y,kitti_gps_oodm_z);
     kitti_gps_odom_msg_.header.stamp = gps_buf.back().header.stamp;
@@ -255,7 +215,6 @@ bool Ins_eskf_ROS_Wrapper::synce_measure(){
         imu_buf.pop_front();
     }
 
-    //TODO DEBUG从measure中的最后一个imu数据获得姿态
     
     kitti_gps_odom_msg_.pose.pose.orientation = last_imu_msg.orientation;
 
@@ -308,16 +267,12 @@ sensor_msgs::NavSatFix Ins_eskf_ROS_Wrapper::gps_data_2_msg(Ins_eskf::GPS_data& 
     return gps_msg_;
 }
 
-void Ins_eskf_ROS_Wrapper::DEBUG_visualize_imu_propagation_res_and_kitti_gps_magnetormeter(){
+void Ins_eskf_ROS_Wrapper::visualize_res_and_kitti_gps_magnetormeter(){
     /*
     1.从p_ins_eskf中拿到最新的state
     2.根据当前measure的GPS以及IMU的数据获得kitti的GPS里程计
     3.将两者进行可视化的比较
     */
-    //TODO DEBUG
-    // LOG(INFO) << "gps buff size = " << gps_buf.size();  //0
-    // LOG(INFO) << "imu buff size = " << imu_buf.size();
-    // CHECK(!imu_buf.empty()) << " empty imu_buf";
     
     Ins_eskf::State current_state_ = p_ins_eskf->get_state();
     double state_stamp = p_ins_eskf->get_state_stamp();
@@ -327,18 +282,9 @@ void Ins_eskf_ROS_Wrapper::DEBUG_visualize_imu_propagation_res_and_kitti_gps_mag
     //将kitti_gps_odom_msg_以及 imu_odom_发布出去
     pub_imu_odometrty_.publish(imu_odom_);
     pub_kitti_gps_odometrty_.publish(kitti_gps_odom_msg_);
-    // LOG(INFO) << "kitti gps odom pos : " << kitti_gps_odom_msg_.pose.pose.position.x << " "
-    //                                      << kitti_gps_odom_msg_.pose.pose.position.y << " "
-    //                                      << kitti_gps_odom_msg_.pose.pose.position.z;
-    // LOG(INFO) << "imu odom pos : " << imu_odom_.pose.pose.position.x << " "
-    //                                      << imu_odom_.pose.pose.position.y << " "
-    //                                      << imu_odom_.pose.pose.position.z;
-    // LOG(INFO) << "DEBUG imu odom and kitti gps odom published.";
 
 }
-
-
-//TODO 
+ 
 nav_msgs::Odometry Ins_eskf_ROS_Wrapper::state_to_odom_msg(Ins_eskf::State _state,double _stamp){
     nav_msgs::Odometry odom_msg_;
     odom_msg_.header.frame_id = "odom";
