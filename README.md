@@ -24,7 +24,12 @@ Here in the whole system arcgitecture:
 
 
 ## Dependency
-``
+ROS-notic
+
+Eigen:
+``` 
+sudo apt-get install libeigen3-dev 
+```
 geographiclib :
   ```
   sudo apt-get install libgeographic-dev
@@ -48,6 +53,10 @@ geographiclib :
 ## Install
 
 Use the following commands to download and compile the package.
+**Before compiling the project , you have to edit the ```include/global_definition.h``` change the PROJECT_PATH to yours.**
+Then
+
+
 
 ```
 cd ~/catkin_ws/src
